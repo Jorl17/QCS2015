@@ -2,6 +2,7 @@ package server;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;
+import javax.xml.ws.Endpoint;
 
 /**
  * This class was based on an interface developed by Raul Barbosa and Henrique Madeira for the Software Quality and
@@ -50,14 +51,14 @@ public class InsulinDoseCalculator {
      * The carbohydrate dose equals the total grams of carbohydrates in the meal
      * divided by the amount of carbohydrate disposed by one unit of insulin,
      * corrected by taking into account the personal sensitivity to insulin.
-     * This dose equals <code>carbohydrateAmount / carbohydrateToInsulinRatio /
-     * personalSensitivity x 50</code>.
+     * This dose equals carbohydrateAmount / carbohydrateToInsulinRatio /
+     * personalSensitivity x 50.
      *
      * The high blood sugar dose equals the difference between the pre-meal
      * blood sugar level and the target blood sugar level, divided by the
-     * personal sensitivity to insulin. This equals <code>(preMealBloodSugar -
-     * targetBloodSugar) / personalSensitivity</code>. The personal sensitivity
-     * may be estimated using <code>personalSensitivityToInsulin()</code>.
+     * personal sensitivity to insulin. This equals (preMealBloodSugar -
+     * targetBloodSugar) / personalSensitivity. The personal sensitivity
+     * may be estimated using personalSensitivityToInsulin().
      *
      * In the special case when the target blood sugar level is greater than the
      * pre-meal blood sugar level, the return value of this method is zero (no
@@ -73,14 +74,21 @@ public class InsulinDoseCalculator {
     @WebMethod
     public int mealtimeInsulinDose(int carbohydrateAmount, int carbohydrateToInsulinRatio, int preMealBloodSugar, int targetBloodSugar, int personalSensitivity)
     {
+        //Check the inputs parameters
+        if (carbohydrateAmount < 60 || carbohydrateAmount > 120)
+            return -1;//FIXME: Check what value to return in this case
+
+        if (carbohydrateToInsulinRatio != 12)
+            return -1;//FIXME: Check what value to return in this case
+
         return 0;
     }
 
     /**
      * Calculates the total number of units of insulin needed between meals.
      * <p>
-     * The total insulin units required in one day equals <code>0.55 x body
-     * weight</code> in kilograms. This method returns 50% of that number, since
+     * The total insulin units required in one day equals 0.55 x body
+     * weight in kilograms. This method returns 50% of that number, since
      * the background need for insulin, between meals, is around half of the
      * daily total.
      *
@@ -108,7 +116,7 @@ public class InsulinDoseCalculator {
      *
      * The physical activity levels, including the ones in the array of samples,
      * and the blood sugar drop values are non-negative integers. The return
-     * value of this method may be passed to <code>mealtimeInsulinDose()</code>
+     * value of this method may be passed to mealtimeInsulinDose()
      * as a parameter.
      *
      * @param physicalActivityLevel most recent activity level (the predictor)
@@ -119,6 +127,13 @@ public class InsulinDoseCalculator {
     int personalSensitivityToInsulin(int physicalActivityLevel, int[] physicalActivitySamples, int[] bloodSugarDropSamples)
     {
         return 0;
+    }
+
+    public static void main(String[] args)
+    {
+        InsulinDoseCalculator implementor = new InsulinDoseCalculator();
+        String address = "http://localhost:9000/Server";
+        Endpoint.publish(address, implementor);
     }
 
 }
