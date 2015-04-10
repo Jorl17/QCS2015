@@ -1,5 +1,6 @@
 package server;
 
+
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 import javax.xml.ws.Endpoint;
@@ -72,8 +73,10 @@ public class InsulinDoseCalculator {
      * @return the mealtime units of insulin needed, or -1 in case of error
      */
     @WebMethod
-    public int mealtimeInsulinDose(int carbohydrateAmount, int carbohydrateToInsulinRatio, int preMealBloodSugar, int targetBloodSugar, int personalSensitivity)
+    public float mealtimeInsulinDose(int carbohydrateAmount, int carbohydrateToInsulinRatio, int preMealBloodSugar, int targetBloodSugar, int personalSensitivity)
     {
+        float insulineAfterMeal, highBloodSugarDose, carboDose;
+
         //Check the inputs parameters -- FIXME: CHECK IF WE ARE DOING THIS RIGHT
         if (carbohydrateAmount < 60 || carbohydrateAmount > 120)
             return -1;//FIXME: Check what value to return in this case
@@ -90,7 +93,13 @@ public class InsulinDoseCalculator {
         else if (personalSensitivity != 50)
             return -1;//FIXME: Check what value to return in this case
 
-        return 0;
+        highBloodSugarDose = (preMealBloodSugar - targetBloodSugar) / personalSensitivity; // Calculate high blood sugar dose
+
+        carboDose = carbohydrateAmount / carbohydrateToInsulinRatio; // Calculate carbohydrate dose
+
+        insulineAfterMeal = highBloodSugarDose + carboDose; // Needed insulin after meal time
+
+        return insulineAfterMeal;
     }
 
     /**
@@ -104,13 +113,17 @@ public class InsulinDoseCalculator {
      * @param bodyWeight the person's weight in kilograms
      * @return the background units of insulin needed, or -1 in case of error
      */
-    int backgroundInsulinDose(int bodyWeight)
+    public double backgroundInsulinDose(int bodyWeight)
     {
+        double insulineDose;
+
         //Check the inputs parameters -- FIXME: SHOULD WE DO THIS HERE?
         if (bodyWeight < 0)
             return -1;//FIXME: Check what value to return in this case
 
-        return 0;
+        insulineDose = 0.55 * bodyWeight;
+
+        return insulineDose;
     }
 
     /**
@@ -139,6 +152,12 @@ public class InsulinDoseCalculator {
      */
     int personalSensitivityToInsulin(int physicalActivityLevel, int[] physicalActivitySamples, int[] bloodSugarDropSamples)
     {
+        float[] regressionCoefficients;
+
+        int dropInBloodSugar;
+
+        //TODO: samples array length must be up to 10 elements
+
         //Check the inputs parameters -- FIXME: CHECK IF WE ARE DOING THIS RIGHT
         if (physicalActivityLevel < 0 || physicalActivityLevel > 10)
             return -1;//FIXME: Check what value to return in this case
@@ -154,8 +173,45 @@ public class InsulinDoseCalculator {
                 return -1;//FIXME: Check what value to return in this case
         }
 
+        regressionCoefficients = simpleLinearRegression(physicalActivitySamples, bloodSugarDropSamples, physicalActivitySamples.length);
+
+        dropInBloodSugar = Math.round(regressionCoefficients[0] + regressionCoefficients[1] * physicalActivityLevel); //FIXME: ask about method return type
 
         return 0;
+    }
+
+    /**
+     * Least squares estimator of a linear regression model with a single explanatory variable
+     * Based on: http://en.wikipedia.org/wiki/Simple_linear_regression
+     *
+     * @param dataX independent variable set
+     * @param dataY dependent variable set
+     * @param nSamples number of samples in each variable set
+     * @return regression coefficients [alpha, beta]
+     */
+    float[] simpleLinearRegression(int[] dataX, int[] dataY, int nSamples)
+    {
+        int i;
+
+        float[] regressionCoefficients;
+
+        float sX=0, sY=0, sXX=0, sXY = 0;
+        float beta, alpha;
+
+        for (i=0; i<nSamples; i++)
+        {
+            sX += dataX[i];
+            sY += dataY[i];
+            sXX += dataX[i] * dataX[i];
+            sXY += dataX[i] * dataY[i];
+        }
+
+        beta = ((nSamples * sXY) - (sX * sY)) / ((nSamples * sXX - (sX*sX)));
+        alpha = (sY / nSamples) - beta * (sX / nSamples);
+
+        regressionCoefficients = new float[]{alpha, beta};
+
+        return regressionCoefficients;
     }
 
     public static void main(String[] args)
