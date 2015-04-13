@@ -4,6 +4,15 @@
   <import namespace="http://server/" location="InsulinDoseCalculatorPortType.wsdl"/>
   <binding name="InsulinDoseCalculatorBinding" type="ns1:InsulinDoseCalculator" xmlns:ns1="http://server/">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+    <operation name="mealtimeInsulinDose">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
     <operation name="sayHelloWorldFrom">
       <soap:operation soapAction=""/>
       <input>
@@ -13,7 +22,16 @@
         <soap:body use="literal"/>
       </output>
     </operation>
-    <operation name="mealtimeInsulinDose">
+    <operation name="InsulinDoseCalculator">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="backgroundInsulinDose">
       <soap:operation soapAction=""/>
       <input>
         <soap:body use="literal"/>

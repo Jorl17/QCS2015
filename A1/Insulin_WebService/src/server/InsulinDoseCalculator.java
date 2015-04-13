@@ -33,6 +33,11 @@ import javax.xml.ws.Endpoint;
 @WebService
 public class InsulinDoseCalculator {
 
+    public void InsulinDoseCalculator()
+    {
+
+    }
+
     @WebMethod
     public String sayHelloWorldFrom(String from)
     {
