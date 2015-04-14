@@ -44,6 +44,9 @@ $("#meal_background").click(function()
     });
 });
 
+
+
+
 function verify_fill()
 {
     if($("#total_carbo_meal").val() != "" &&
@@ -84,7 +87,6 @@ function add_row()
 
     return false;
 }
-
 function removeRow(rowID) {
     var row = document.getElementById(rowID);
     row.parentNode.removeChild(row);

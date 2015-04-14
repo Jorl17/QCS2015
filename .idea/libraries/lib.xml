@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/A1/Insulin_WebService/lib/jaxws-tools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/A1/Insulin_WebService/lib/saaj-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/A1/Insulin_WebService/lib/jaxb-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/A1/Insulin_WebService/lib/jaxws-rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/A1/Insulin_WebService/lib/gmbal-api-only.jar!/" />
+      <root url="jar://$PROJECT_DIR$/A1/Insulin_WebService/lib/stax2-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/A1/Insulin_WebService/lib/policy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/A1/Insulin_WebService/lib/streambuffer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/A1/Insulin_WebService/lib/jaxb-xjc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/A1/Insulin_WebService/lib/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/A1/Insulin_WebService/lib/jaxb-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/A1/Insulin_WebService/lib/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/A1/Insulin_WebService/lib/FastInoset.jar!/" />
+      <root url="jar://$PROJECT_DIR$/A1/Insulin_WebService/lib/stax-ex.jar!/" />
+      <root url="jar://$PROJECT_DIR$/A1/Insulin_WebService/lib/jaxws-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/A1/Insulin_WebService/lib/jsr181-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/A1/Insulin_WebService/lib/saaj-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/A1/Insulin_WebService/lib/management-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/A1/Insulin_WebService/lib/ha-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/A1/Insulin_WebService/lib/mimepull.jar!/" />
+      <root url="jar://$PROJECT_DIR$/A1/Insulin_WebService/lib/woodstox-core-asl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
