@@ -1,6 +1,5 @@
 package server;
 
-
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 import javax.xml.ws.Endpoint;
@@ -82,21 +81,21 @@ public class InsulinDoseCalculator {
     {
         float insulineAfterMeal, highBloodSugarDose, carboDose;
 
-        //Check the inputs parameters -- FIXME: CHECK IF WE ARE DOING THIS RIGHT
-        if (carbohydrateAmount < 60 || carbohydrateAmount > 120)
-            return -1;//FIXME: Check what value to return in this case
+        //Check the inputs parameters
+        if (carbohydrateAmount < 0)
+            return -1;
 
-        else if (carbohydrateToInsulinRatio != 12)
-            return -1;//FIXME: Check what value to return in this case
+        else if (carbohydrateToInsulinRatio < 0)
+            return -1;
 
-        else if (preMealBloodSugar <= 100)
-            return -1;//FIXME: Check what value to return in this case
+        else if (preMealBloodSugar < 0)
+            return -1;
 
-        else if (targetBloodSugar < 80 || targetBloodSugar > 120)
-            return -1;//FIXME: Check what value to return in this case
+        else if (targetBloodSugar < 0)
+            return -1;
 
-        else if (personalSensitivity != 50)
-            return -1;//FIXME: Check what value to return in this case
+        else if (personalSensitivity < 0)
+            return -1;
 
         highBloodSugarDose = (preMealBloodSugar - targetBloodSugar) / personalSensitivity; // Calculate high blood sugar dose
 
@@ -118,13 +117,14 @@ public class InsulinDoseCalculator {
      * @param bodyWeight the person's weight in kilograms
      * @return the background units of insulin needed, or -1 in case of error
      */
+    @WebMethod
     public double backgroundInsulinDose(int bodyWeight)
     {
         double insulineDose;
 
-        //Check the inputs parameters -- FIXME: SHOULD WE DO THIS HERE?
+        //Check the inputs parameters
         if (bodyWeight < 0)
-            return -1;//FIXME: Check what value to return in this case
+            return -1;
 
         insulineDose = 0.55 * bodyWeight;
 
@@ -155,34 +155,35 @@ public class InsulinDoseCalculator {
      * @param bloodSugarDropSamples corresponding K samples of blood sugar drop
      * @return the blood sugar drop in mg/dl, or -1 in case of error
      */
-    int personalSensitivityToInsulin(int physicalActivityLevel, int[] physicalActivitySamples, int[] bloodSugarDropSamples)
+    @WebMethod
+    public int personalSensitivityToInsulin(int physicalActivityLevel, int[] physicalActivitySamples, int[] bloodSugarDropSamples)
     {
         float[] regressionCoefficients;
-
         int dropInBloodSugar;
 
-        //TODO: samples array length must be up to 10 elements
+        //Check the inputs parameters
+        if (physicalActivitySamples.length > 10)
+            return -1;
 
-        //Check the inputs parameters -- FIXME: CHECK IF WE ARE DOING THIS RIGHT
-        if (physicalActivityLevel < 0 || physicalActivityLevel > 10)
-            return -1;//FIXME: Check what value to return in this case
+        if (physicalActivityLevel < 0)
+            return -1;
         else if (physicalActivitySamples.length != bloodSugarDropSamples.length)
-            return -1;//FIXME: Check what value to return in this case
+            return -1;
 
         //Check the k samples
         for (int i = 0; i < bloodSugarDropSamples.length; i++)
         {
             if (physicalActivitySamples[i] < 0 || physicalActivitySamples[i] > 10)
-                return -1;//FIXME: Check what value to return in this case
+                return -1;
             else if (bloodSugarDropSamples[i] < 25 || bloodSugarDropSamples[i] > 100)
-                return -1;//FIXME: Check what value to return in this case
+                return -1;
         }
 
         regressionCoefficients = simpleLinearRegression(physicalActivitySamples, bloodSugarDropSamples, physicalActivitySamples.length);
 
         dropInBloodSugar = Math.round(regressionCoefficients[0] + regressionCoefficients[1] * physicalActivityLevel); //FIXME: ask about method return type
 
-        return 0;
+        return dropInBloodSugar;
     }
 
     /**
