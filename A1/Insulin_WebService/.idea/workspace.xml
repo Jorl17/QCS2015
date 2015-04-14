@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ab459c3-c2cf-44ed-90c5-c390aca9ede6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/InsulinDoseCalculator.java" afterPath="$PROJECT_DIR$/src/server/InsulinDoseCalculator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Insulin_WebService.iws" />
@@ -29,11 +28,21 @@
       <file leaf-file-name="InsulinDoseCalculator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/server/InsulinDoseCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50537634">
-              <caret line="147" column="29" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.40553746">
+              <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,9 +89,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -107,9 +116,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -166,6 +172,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,6 +192,9 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.17914692" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/server/InsulinDoseCalculatorPortType.wsdl" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
     <UpdatedFiles>
@@ -198,6 +210,10 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/server/InsulinDoseCalculator.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/server/InsulinDoseCalculator.wsdl</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/server/InsulinDoseCalculatorPortType.wsdl</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/server/InsulinDoseCalculatorPortType_schema1.xsd</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -205,18 +221,57 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/InsulinDoseCalculator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/InsulinDoseCalculatorService.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/MealtimeInsulinDose.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/MealtimeInsulinDoseResponse.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/ObjectFactory.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/SayHelloWorldFrom.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/SayHelloWorldFromResponse.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/Server.wsdl</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/package-info.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/server/InsulinDoseCalculator.wsdl</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/server/InsulinDoseCalculatorPortType.wsdl</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/server/InsulinDoseCalculatorPortType_schema1.xsd</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/bootstrap-3.3.4-dist/css/bootstrap-theme.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/bootstrap-3.3.4-dist/css/bootstrap-theme.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/bootstrap-3.3.4-dist/css/bootstrap-theme.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/bootstrap-3.3.4-dist/css/bootstrap.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/bootstrap-3.3.4-dist/css/bootstrap.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/bootstrap-3.3.4-dist/css/bootstrap.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.woff2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/bootstrap-3.3.4-dist/js/bootstrap.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/bootstrap-3.3.4-dist/js/bootstrap.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/bootstrap-3.3.4-dist/js/npm.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/custom.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/css/font-awesome.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/css/font-awesome.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/fonts/FontAwesome.otf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/fonts/fontawesome-webfont.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/fonts/fontawesome-webfont.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/fonts/fontawesome-webfont.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/fonts/fontawesome-webfont.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/fonts/fontawesome-webfont.woff2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/less/animated.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/less/bordered-pulled.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/less/core.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/less/fixed-width.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/less/font-awesome.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/less/icons.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/less/larger.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/less/list.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/less/mixins.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/less/path.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/less/rotated-flipped.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/less/stacked.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/less/variables.less</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/scss/_animated.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/scss/_bordered-pulled.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/scss/_core.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/scss/_fixed-width.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/scss/_icons.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/scss/_larger.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/scss/_list.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/scss/_mixins.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/scss/_path.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/scss/_rotated-flipped.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/scss/_stacked.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/scss/_variables.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/font-awesome-4.3.0/scss/font-awesome.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/jquery-1.11.2.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/style.css</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -305,7 +360,27 @@
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.InsulinDoseCalculator">
+    <configuration default="false" name="InsulinDoseCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="server.InsulinDoseCalculator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Insulin_WebService" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -541,8 +616,22 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.InsulinDoseCalculator" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.InsulinDoseCalculator" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -556,7 +645,9 @@
       <updated>1428486706417</updated>
       <workItem from="1428486707706" duration="162000" />
       <workItem from="1428486880960" duration="43000" />
-      <workItem from="1428486925830" duration="4455000" />
+      <workItem from="1428486925830" duration="5552000" />
+      <workItem from="1428652307793" duration="15000" />
+      <workItem from="1428930594973" duration="873000" />
     </task>
     <task id="LOCAL-00001" summary="Server example created">
       <created>1428487083497</created>
@@ -582,39 +673,51 @@
       <option name="project" value="LOCAL" />
       <updated>1428490152525</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finished input verification">
+      <created>1428491584322</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1428491584322</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Just tried to recompile everything. It appears to be working">
+      <created>1428931059170</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1428931059170</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4660000" />
+    <option name="totallyTimeSpent" value="6645000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.49806523" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.50193477" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.49806523" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -636,7 +739,9 @@
     <MESSAGE value="Changes in the Web Service" />
     <MESSAGE value="Added the javadoc provided by the teacher" />
     <MESSAGE value="Removed the Server Class. Now we only have one class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed the Server Class. Now we only have one class" />
+    <MESSAGE value="Finished input verification" />
+    <MESSAGE value="Just tried to recompile everything. It appears to be working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Just tried to recompile everything. It appears to be working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -651,8 +756,36 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/server/InsulinDoseCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50537634">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/InsulinDoseCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="147" column="29" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/InsulinDoseCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40553746">
+          <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
