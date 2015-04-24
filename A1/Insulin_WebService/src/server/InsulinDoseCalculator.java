@@ -27,6 +27,7 @@ import javax.xml.ws.Endpoint;
  * @author Henrique Madeira
  * @author Joaquim Leitão
  * @author João Miguel Simões
+ * @author Leonardo Toledo
  * @version 1.1
  */
 @WebService

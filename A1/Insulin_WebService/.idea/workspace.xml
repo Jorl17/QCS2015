@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ab459c3-c2cf-44ed-90c5-c390aca9ede6" name="Default" comment="Just tried to recompile everything. It appears to be working">
+    <list default="true" id="0ab459c3-c2cf-44ed-90c5-c390aca9ede6" name="Default" comment="Added Leonard as the">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/InsulinDoseCalculator.java" afterPath="$PROJECT_DIR$/src/server/InsulinDoseCalculator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,8 +29,8 @@
       <file leaf-file-name="InsulinDoseCalculator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/server/InsulinDoseCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.019354839">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5612903">
+              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,7 +41,7 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -127,6 +127,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -199,7 +200,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,255 +217,9 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.17914692" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/server/InsulinDoseCalculatorPortType.wsdl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/InsulinDoseCalculator.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/custom.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/index.jsp</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../.idea/.name</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../.idea/artifacts/Insulin_WebService_war_exploded.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../.idea/compiler.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../.idea/copyright/profiles_settings.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../.idea/libraries/lib.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../.idea/misc.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../.idea/modules.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../.idea/uiDesigner.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../.idea/vcs.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/InsulinDoseCalculator.wsdl</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/InsulinDoseCalculator_Service.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/InsulinDoseCalculator_Service.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/background.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/meal_personal.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/meal_standard.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/classes/client/BackgroundInsulinDose.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/classes/client/BackgroundInsulinDoseResponse.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/classes/client/Client.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/classes/client/InsulinDoseCalculator.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/classes/client/InsulinDoseCalculator.wsdl</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/classes/client/InsulinDoseCalculatorResponse.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/classes/client/InsulinDoseCalculatorService.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/classes/client/InsulinDoseCalculator_Service.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/classes/client/InsulinDoseCalculator_Type.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/classes/client/MealtimeInsulinDose.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/classes/client/MealtimeInsulinDoseResponse.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/classes/client/ObjectFactory.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/classes/client/SayHelloWorldFrom.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/classes/client/SayHelloWorldFromResponse.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/classes/client/Server.wsdl</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/classes/client/package-info.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/classes/server/InsulinDoseCalculator.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/classes/server/InsulinDoseCalculator.wsdl</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/classes/server/InsulinDoseCalculatorPortType.wsdl</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/classes/server/InsulinDoseCalculatorPortType_schema1.xsd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/lib/FastInoset.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/lib/gmbal-api-only.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/lib/ha-api.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/lib/javax.annotation.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/lib/jaxb-api.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/lib/jaxb-impl.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/lib/jaxb-xjc.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/lib/jaxws-api.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/lib/jaxws-rt.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/lib/jaxws-tools.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/lib/jsr181-api.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/lib/mail.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/lib/management-api.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/lib/mimepull.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/lib/policy.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/lib/saaj-api.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/lib/saaj-impl.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/lib/stax-ex.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/lib/stax2-api.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/lib/streambuffer.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/lib/woodstox-core-asl.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/sun-jaxws.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/WEB-INF/web.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/bootstrap-3.3.4-dist/css/bootstrap-theme.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/bootstrap-3.3.4-dist/css/bootstrap-theme.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/bootstrap-3.3.4-dist/css/bootstrap-theme.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/bootstrap-3.3.4-dist/css/bootstrap.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/bootstrap-3.3.4-dist/css/bootstrap.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/bootstrap-3.3.4-dist/css/bootstrap.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.woff2</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/bootstrap-3.3.4-dist/js/bootstrap.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/bootstrap-3.3.4-dist/js/bootstrap.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/bootstrap-3.3.4-dist/js/npm.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/custom.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/css/font-awesome.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/css/font-awesome.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/fonts/FontAwesome.otf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/fonts/fontawesome-webfont.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/fonts/fontawesome-webfont.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/fonts/fontawesome-webfont.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/fonts/fontawesome-webfont.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/fonts/fontawesome-webfont.woff2</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/less/animated.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/less/bordered-pulled.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/less/core.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/less/fixed-width.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/less/font-awesome.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/less/icons.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/less/larger.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/less/list.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/less/mixins.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/less/path.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/less/rotated-flipped.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/less/stacked.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/less/variables.less</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/scss/_animated.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/scss/_bordered-pulled.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/scss/_core.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/scss/_fixed-width.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/scss/_icons.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/scss/_larger.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/scss/_list.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/scss/_mixins.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/scss/_path.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/scss/_rotated-flipped.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/scss/_stacked.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/scss/_variables.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/font-awesome-4.3.0/scss/font-awesome.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/jquery-1.11.2.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/assets/style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/background.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/index.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/meal_personal.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/artifacts/Insulin_WebService_war_exploded/meal_standard.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/production/Insulin_WebService/client/BackgroundInsulinDose.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/production/Insulin_WebService/client/BackgroundInsulinDoseResponse.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/production/Insulin_WebService/client/Client.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/production/Insulin_WebService/client/InsulinDoseCalculator.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/production/Insulin_WebService/client/InsulinDoseCalculator.wsdl</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/production/Insulin_WebService/client/InsulinDoseCalculatorResponse.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/production/Insulin_WebService/client/InsulinDoseCalculatorService.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/production/Insulin_WebService/client/InsulinDoseCalculator_Service.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/production/Insulin_WebService/client/InsulinDoseCalculator_Type.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/production/Insulin_WebService/client/MealtimeInsulinDose.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/production/Insulin_WebService/client/MealtimeInsulinDoseResponse.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/production/Insulin_WebService/client/ObjectFactory.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/production/Insulin_WebService/client/SayHelloWorldFrom.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/production/Insulin_WebService/client/SayHelloWorldFromResponse.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/production/Insulin_WebService/client/Server.wsdl</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/production/Insulin_WebService/client/package-info.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/production/Insulin_WebService/server/InsulinDoseCalculator.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/production/Insulin_WebService/server/InsulinDoseCalculator.wsdl</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/production/Insulin_WebService/server/InsulinDoseCalculatorPortType.wsdl</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../../out/production/Insulin_WebService/server/InsulinDoseCalculatorPortType_schema1.xsd</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="Application.InsulinDoseCalculator">
     <configuration default="false" name="InsulinDoseCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -755,7 +509,10 @@
       <workItem from="1428486925830" duration="5552000" />
       <workItem from="1428652307793" duration="15000" />
       <workItem from="1428930594973" duration="1100000" />
-      <workItem from="1429005369221" duration="618000" />
+      <workItem from="1429005369221" duration="1727000" />
+      <workItem from="1429211874118" duration="2000" />
+      <workItem from="1429892147232" duration="108000" />
+      <workItem from="1429892266269" duration="229000" />
     </task>
     <task id="LOCAL-00001" summary="Server example created">
       <created>1428487083497</created>
@@ -793,11 +550,17 @@
       <option name="project" value="LOCAL" />
       <updated>1428931059170</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Corrected the input validation on the web service">
+      <created>1429006006352</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1429006006352</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7490000" />
+    <option name="totallyTimeSpent" value="8938000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -817,11 +580,9 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.49585405" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5041459" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -831,13 +592,15 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.49806523" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.49806523" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -858,7 +621,8 @@
     <MESSAGE value="Removed the Server Class. Now we only have one class" />
     <MESSAGE value="Finished input verification" />
     <MESSAGE value="Just tried to recompile everything. It appears to be working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Just tried to recompile everything. It appears to be working" />
+    <MESSAGE value="Corrected the input validation on the web service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected the input validation on the web service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -871,6 +635,84 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/server/InsulinDoseCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/InsulinDoseCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/InsulinDoseCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/InsulinDoseCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -927,8 +769,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/InsulinDoseCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.019354839">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5612903">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
