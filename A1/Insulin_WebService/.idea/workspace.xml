@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ab459c3-c2cf-44ed-90c5-c390aca9ede6" name="Default" comment="Re">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/PersonalSensitivityToInsulin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/PersonalSensitivityToInsulinResponse.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/Server1.wsdl" afterPath="" />
+    <list default="true" id="0ab459c3-c2cf-44ed-90c5-c390aca9ede6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/BackgroundInsulinDose.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/BackgroundInsulinDose.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/BackgroundInsulinDoseResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/BackgroundInsulinDoseResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/InsulinDoseCalculator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/InsulinDoseCalculator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/InsulinDoseCalculatorResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/InsulinDoseCalculatorResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/InsulinDoseCalculatorService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/InsulinDoseCalculatorService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/InsulinDoseCalculator_Type.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/InsulinDoseCalculator_Type.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/MealtimeInsulinDose.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/MealtimeInsulinDose.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/MealtimeInsulinDoseResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/MealtimeInsulinDoseResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/ObjectFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/PersonalSensitivityToInsulin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/PersonalSensitivityToInsulinResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/SayHelloWorldFrom.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/SayHelloWorldFrom.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/SayHelloWorldFromResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/SayHelloWorldFromResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/Server.wsdl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/package-info.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/server/InsulinDoseCalculator.wsdl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/server/InsulinDoseCalculatorPortType.wsdl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/server/InsulinDoseCalculatorPortType_schema1.xsd" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Insulin_WebService/client/InsulinDoseCalculator.class" afterPath="$PROJECT_DIR$/out/production/Insulin_WebService/client/InsulinDoseCalculator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Insulin_WebService/server/InsulinDoseCalculator.class" afterPath="$PROJECT_DIR$/out/production/Insulin_WebService/server/InsulinDoseCalculator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/InsulinDoseCalculator.class" afterPath="$PROJECT_DIR$/src/client/InsulinDoseCalculator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/InsulinDoseCalculator.java" afterPath="$PROJECT_DIR$/src/client/InsulinDoseCalculator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Insulin_WebService/client/InsulinDoseCalculatorService.class" afterPath="$PROJECT_DIR$/out/production/Insulin_WebService/client/InsulinDoseCalculatorService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/InsulinDoseCalculator.java" afterPath="$PROJECT_DIR$/src/server/InsulinDoseCalculator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Insulin_WebService.iws" />
@@ -32,11 +58,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InsulinDoseCalculator.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="InsulinDoseCalculator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/server/InsulinDoseCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="183" column="25" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.7068404">
+              <caret line="231" column="44" selection-start-line="231" selection-start-column="44" selection-end-line="231" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4397394">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="83" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,8 +114,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/server/Server.java" />
-        <option value="$PROJECT_DIR$/src/server/InsulinDoseCalculator.java" />
         <option value="$PROJECT_DIR$/src/client/Client.java" />
+        <option value="$PROJECT_DIR$/src/server/InsulinDoseCalculator.java" />
       </list>
     </option>
   </component>
@@ -137,7 +163,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,7 +234,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,11 +247,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.17914692" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
@@ -554,7 +580,9 @@
       <workItem from="1430734461809" duration="915000" />
       <workItem from="1430736821313" duration="18000" />
       <workItem from="1430736902693" duration="4044000" />
-      <workItem from="1430740976901" duration="319000" />
+      <workItem from="1430740976901" duration="2468000" />
+      <workItem from="1430753483839" duration="600000" />
+      <workItem from="1430755144927" duration="672000" />
     </task>
     <task id="LOCAL-00001" summary="Server example created">
       <created>1428487083497</created>
@@ -610,11 +638,17 @@
       <option name="project" value="LOCAL" />
       <updated>1430739937889</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Recompiled project">
+      <created>1430741303694</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1430741303694</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17378000" />
+    <option name="totallyTimeSpent" value="20799000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -627,7 +661,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -647,14 +681,14 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.49806523" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.49806523" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -678,7 +712,8 @@
     <MESSAGE value="Corrected the input validation on the web service" />
     <MESSAGE value="Added Leonard as one of the authors of the code" />
     <MESSAGE value="WebService passed the test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="WebService passed the test cases" />
+    <MESSAGE value="Recompiled project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recompiled project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -691,6 +726,62 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/server/InsulinDoseCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="183" column="25" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/InsulinDoseCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="183" column="25" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/InsulinDoseCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1019,20 +1110,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/InsulinDoseCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/client/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="183" column="25" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
+          <caret line="30" column="83" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/server/InsulinDoseCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4397394">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7068404">
+          <caret line="231" column="44" selection-start-line="231" selection-start-column="44" selection-end-line="231" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

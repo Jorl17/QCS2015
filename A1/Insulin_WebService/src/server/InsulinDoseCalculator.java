@@ -228,6 +228,10 @@ public class InsulinDoseCalculator {
     public static void main(String[] args)
     {
         InsulinDoseCalculator implementor = new InsulinDoseCalculator();
+        /*
+         * Address for the liis-lab machine!
+         * String address = "http://liis-lab.dei.uc.pt:8080/Server";
+         */
         String address = "http://localhost:9000/Server";
         Endpoint.publish(address, implementor);
     }
