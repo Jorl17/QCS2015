@@ -27,30 +27,6 @@ public interface InsulinDoseCalculator {
 
     /**
      * 
-     */
-    @WebMethod(operationName = "InsulinDoseCalculator")
-    @RequestWrapper(localName = "InsulinDoseCalculator", targetNamespace = "http://server/", className = "client.InsulinDoseCalculator_Type")
-    @ResponseWrapper(localName = "InsulinDoseCalculatorResponse", targetNamespace = "http://server/", className = "client.InsulinDoseCalculatorResponse")
-    @Action(input = "http://server/InsulinDoseCalculator/InsulinDoseCalculatorRequest", output = "http://server/InsulinDoseCalculator/InsulinDoseCalculatorResponse")
-    public void insulinDoseCalculator();
-
-    /**
-     * 
-     * @param arg0
-     * @return
-     *     returns java.lang.String
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "sayHelloWorldFrom", targetNamespace = "http://server/", className = "client.SayHelloWorldFrom")
-    @ResponseWrapper(localName = "sayHelloWorldFromResponse", targetNamespace = "http://server/", className = "client.SayHelloWorldFromResponse")
-    @Action(input = "http://server/InsulinDoseCalculator/sayHelloWorldFromRequest", output = "http://server/InsulinDoseCalculator/sayHelloWorldFromResponse")
-    public String sayHelloWorldFrom(
-        @WebParam(name = "arg0", targetNamespace = "")
-        String arg0);
-
-    /**
-     * 
      * @param arg4
      * @param arg3
      * @param arg2
@@ -75,6 +51,30 @@ public interface InsulinDoseCalculator {
         int arg3,
         @WebParam(name = "arg4", targetNamespace = "")
         int arg4);
+
+    /**
+     * 
+     */
+    @WebMethod(operationName = "InsulinDoseCalculator")
+    @RequestWrapper(localName = "InsulinDoseCalculator", targetNamespace = "http://server/", className = "client.InsulinDoseCalculator_Type")
+    @ResponseWrapper(localName = "InsulinDoseCalculatorResponse", targetNamespace = "http://server/", className = "client.InsulinDoseCalculatorResponse")
+    @Action(input = "http://server/InsulinDoseCalculator/InsulinDoseCalculatorRequest", output = "http://server/InsulinDoseCalculator/InsulinDoseCalculatorResponse")
+    public void insulinDoseCalculator();
+
+    /**
+     * 
+     * @param arg0
+     * @return
+     *     returns java.lang.String
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "sayHelloWorldFrom", targetNamespace = "http://server/", className = "client.SayHelloWorldFrom")
+    @ResponseWrapper(localName = "sayHelloWorldFromResponse", targetNamespace = "http://server/", className = "client.SayHelloWorldFromResponse")
+    @Action(input = "http://server/InsulinDoseCalculator/sayHelloWorldFromRequest", output = "http://server/InsulinDoseCalculator/sayHelloWorldFromResponse")
+    public String sayHelloWorldFrom(
+        @WebParam(name = "arg0", targetNamespace = "")
+        String arg0);
 
     /**
      * 
