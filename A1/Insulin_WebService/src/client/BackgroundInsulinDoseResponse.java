@@ -17,7 +17,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="return" type="{http://www.w3.org/2001/XMLSchema}double"/>
+ *         &lt;element name="return" type="{http://www.w3.org/2001/XMLSchema}int"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -33,13 +33,13 @@ import javax.xml.bind.annotation.XmlType;
 public class BackgroundInsulinDoseResponse {
 
     @XmlElement(name = "return")
-    protected double _return;
+    protected int _return;
 
     /**
      * Gets the value of the return property.
      * 
      */
-    public double getReturn() {
+    public int getReturn() {
         return _return;
     }
 
@@ -47,7 +47,7 @@ public class BackgroundInsulinDoseResponse {
      * Sets the value of the return property.
      * 
      */
-    public void setReturn(double value) {
+    public void setReturn(int value) {
         this._return = value;
     }
 

@@ -78,33 +78,37 @@ public class InsulinDoseCalculator {
      * @return the mealtime units of insulin needed, or -1 in case of error
      */
     @WebMethod
-    public float mealtimeInsulinDose(int carbohydrateAmount, int carbohydrateToInsulinRatio, int preMealBloodSugar, int targetBloodSugar, int personalSensitivity)
+    public int mealtimeInsulinDose(int carbohydrateAmount, int carbohydrateToInsulinRatio, int preMealBloodSugar, int targetBloodSugar, int personalSensitivity)
     {
-        float insulineAfterMeal, highBloodSugarDose, carboDose;
+        double insulineAfterMeal, highBloodSugarDose, carboDose;
+        //60, 12, 200, 100, 25 -- 14
 
         //Check the inputs parameters
-        if (carbohydrateAmount < 0)
-            return -1;
+        if (carbohydrateAmount < 60 || carbohydrateAmount > 120)
+            return 0;
 
-        else if (carbohydrateToInsulinRatio < 0)
-            return -1;
+        else if (carbohydrateToInsulinRatio < 10 || carbohydrateToInsulinRatio > 15)
+            return 0;
 
-        else if (preMealBloodSugar < 0)
-            return -1;
+        else if (preMealBloodSugar < 120 || preMealBloodSugar > 250)
+            return 0;
 
-        else if (targetBloodSugar < 0)
-            return -1;
+        else if (targetBloodSugar < 80 || targetBloodSugar > 120)
+            return 0;
 
-        else if (personalSensitivity < 0)
-            return -1;
+        else if (personalSensitivity < 15 || personalSensitivity > 100)
+            return 0;
+
+        else if (targetBloodSugar > preMealBloodSugar)
+            return 0;
 
         highBloodSugarDose = (preMealBloodSugar - targetBloodSugar) / personalSensitivity; // Calculate high blood sugar dose
 
-        carboDose = carbohydrateAmount / carbohydrateToInsulinRatio; // Calculate carbohydrate dose
+        carboDose = 50 * carbohydrateAmount / carbohydrateToInsulinRatio / personalSensitivity; // Calculate carbohydrate dose
 
         insulineAfterMeal = highBloodSugarDose + carboDose; // Needed insulin after meal time
 
-        return insulineAfterMeal;
+        return (int)Math.round(insulineAfterMeal);
     }
 
     /**
@@ -119,17 +123,17 @@ public class InsulinDoseCalculator {
      * @return the background units of insulin needed, or -1 in case of error
      */
     @WebMethod
-    public double backgroundInsulinDose(int bodyWeight)
+    public int backgroundInsulinDose(int bodyWeight)
     {
         double insulineDose;
 
         //Check the inputs parameters
-        if (bodyWeight < 0)
-            return -1;
+        if (bodyWeight < 40 || bodyWeight > 130)
+            return 0;
 
-        insulineDose = 0.55 * bodyWeight;
+        insulineDose = 0.55 * bodyWeight * 0.5;
 
-        return insulineDose;
+        return (int)Math.round(insulineDose);
     }
 
     /**
@@ -164,25 +168,25 @@ public class InsulinDoseCalculator {
 
         //Check the inputs parameters
         if (physicalActivitySamples.length > 10)
-            return -1;
+            return 0;
 
-        if (physicalActivityLevel < 0)
-            return -1;
+        if (physicalActivityLevel < 0 || physicalActivityLevel > 10)
+            return 0;
         else if (physicalActivitySamples.length != bloodSugarDropSamples.length)
-            return -1;
+            return 0;
 
         //Check the k samples
         for (int i = 0; i < bloodSugarDropSamples.length; i++)
         {
             if (physicalActivitySamples[i] < 0 || physicalActivitySamples[i] > 10)
-                return -1;
-            else if (bloodSugarDropSamples[i] < 25 || bloodSugarDropSamples[i] > 100)
-                return -1;
+                return 0;
+            else if (bloodSugarDropSamples[i] < 15 || bloodSugarDropSamples[i] > 100)
+                return 0;
         }
 
         regressionCoefficients = simpleLinearRegression(physicalActivitySamples, bloodSugarDropSamples, physicalActivitySamples.length);
 
-        dropInBloodSugar = Math.round(regressionCoefficients[0] + regressionCoefficients[1] * physicalActivityLevel); //FIXME: ask about method return type
+        dropInBloodSugar = Math.round(regressionCoefficients[0] + regressionCoefficients[1] * physicalActivityLevel);
 
         return dropInBloodSugar;
     }

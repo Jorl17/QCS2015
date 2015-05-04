@@ -25,6 +25,7 @@ import javax.xml.namespace.QName;
 public class ObjectFactory {
 
     private final static QName _InsulinDoseCalculator_QNAME = new QName("http://server/", "InsulinDoseCalculator");
+    private final static QName _PersonalSensitivityToInsulinResponse_QNAME = new QName("http://server/", "personalSensitivityToInsulinResponse");
     private final static QName _SayHelloWorldFromResponse_QNAME = new QName("http://server/", "sayHelloWorldFromResponse");
     private final static QName _MealtimeInsulinDoseResponse_QNAME = new QName("http://server/", "mealtimeInsulinDoseResponse");
     private final static QName _InsulinDoseCalculatorResponse_QNAME = new QName("http://server/", "InsulinDoseCalculatorResponse");
@@ -32,12 +33,21 @@ public class ObjectFactory {
     private final static QName _BackgroundInsulinDoseResponse_QNAME = new QName("http://server/", "backgroundInsulinDoseResponse");
     private final static QName _MealtimeInsulinDose_QNAME = new QName("http://server/", "mealtimeInsulinDose");
     private final static QName _BackgroundInsulinDose_QNAME = new QName("http://server/", "backgroundInsulinDose");
+    private final static QName _PersonalSensitivityToInsulin_QNAME = new QName("http://server/", "personalSensitivityToInsulin");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: client
      * 
      */
     public ObjectFactory() {
+    }
+
+    /**
+     * Create an instance of {@link PersonalSensitivityToInsulin }
+     * 
+     */
+    public PersonalSensitivityToInsulin createPersonalSensitivityToInsulin() {
+        return new PersonalSensitivityToInsulin();
     }
 
     /**
@@ -62,6 +72,14 @@ public class ObjectFactory {
      */
     public SayHelloWorldFromResponse createSayHelloWorldFromResponse() {
         return new SayHelloWorldFromResponse();
+    }
+
+    /**
+     * Create an instance of {@link PersonalSensitivityToInsulinResponse }
+     * 
+     */
+    public PersonalSensitivityToInsulinResponse createPersonalSensitivityToInsulinResponse() {
+        return new PersonalSensitivityToInsulinResponse();
     }
 
     /**
@@ -111,6 +129,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://server/", name = "InsulinDoseCalculator")
     public JAXBElement<InsulinDoseCalculator_Type> createInsulinDoseCalculator(InsulinDoseCalculator_Type value) {
         return new JAXBElement<InsulinDoseCalculator_Type>(_InsulinDoseCalculator_QNAME, InsulinDoseCalculator_Type.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link PersonalSensitivityToInsulinResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://server/", name = "personalSensitivityToInsulinResponse")
+    public JAXBElement<PersonalSensitivityToInsulinResponse> createPersonalSensitivityToInsulinResponse(PersonalSensitivityToInsulinResponse value) {
+        return new JAXBElement<PersonalSensitivityToInsulinResponse>(_PersonalSensitivityToInsulinResponse_QNAME, PersonalSensitivityToInsulinResponse.class, null, value);
     }
 
     /**
@@ -174,6 +201,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://server/", name = "backgroundInsulinDose")
     public JAXBElement<BackgroundInsulinDose> createBackgroundInsulinDose(BackgroundInsulinDose value) {
         return new JAXBElement<BackgroundInsulinDose>(_BackgroundInsulinDose_QNAME, BackgroundInsulinDose.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link PersonalSensitivityToInsulin }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://server/", name = "personalSensitivityToInsulin")
+    public JAXBElement<PersonalSensitivityToInsulin> createPersonalSensitivityToInsulin(PersonalSensitivityToInsulin value) {
+        return new JAXBElement<PersonalSensitivityToInsulin>(_PersonalSensitivityToInsulin_QNAME, PersonalSensitivityToInsulin.class, null, value);
     }
 
 }
