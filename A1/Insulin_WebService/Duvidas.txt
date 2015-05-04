@@ -1,0 +1,5 @@
+Dúvidas:
+
+1 - Timeout e indisponibilidade de ligação podem ser consideradas a mesma coisa? (i.e. timeout)
+2 - Excepção pode ser considerado valor incorrecto?
+3 - Temos que ter em conta a probabilidade do Web Service funcionar bem? (i.e. gerar mais casos em que tudo corre bem para reflectir um comportamento correcto probabilisticamente mais esperado para o web service)
