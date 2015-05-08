@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ab459c3-c2cf-44ed-90c5-c390aca9ede6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Duvidas.txt" afterPath="$PROJECT_DIR$/Duvidas.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/voter/voter.pml" afterPath="$PROJECT_DIR$/src/voter/voter.pml" />
+    <list default="true" id="0ab459c3-c2cf-44ed-90c5-c390aca9ede6" name="Default" comment="Updated the voter and the list of questions. Added txt file with instructions on how to run spin">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/voter/spin.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Insulin_WebService.iws" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="voter.pml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/voter/voter.pml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16017798">
-              <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+            <state vertical-scroll-proportion="0.3403782">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -576,7 +575,7 @@
       <workItem from="1431094136852" duration="1023000" />
       <workItem from="1431101799074" duration="43000" />
       <workItem from="1431101857259" duration="645000" />
-      <workItem from="1431102518989" duration="3829000" />
+      <workItem from="1431102518989" duration="3932000" />
     </task>
     <task id="LOCAL-00001" summary="Server example created">
       <created>1428487083497</created>
@@ -656,11 +655,17 @@
       <option name="project" value="LOCAL" />
       <updated>1430763010388</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Updated the voter and the list of questions. Added txt file with instructions on how to run spin">
+      <created>1431106736482</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1431106736482</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31048000" />
+    <option name="totallyTimeSpent" value="31151000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -673,7 +678,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -693,7 +698,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19845219" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19845219" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.49806523" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -728,7 +733,8 @@
     <MESSAGE value="Updated server with information to run in Liis VM" />
     <MESSAGE value="Added file with questions to ask the teacher regarding the assignment" />
     <MESSAGE value="Voter draft" />
-    <option name="LAST_COMMIT_MESSAGE" value="Voter draft" />
+    <MESSAGE value="Updated the voter and the list of questions. Added txt file with instructions on how to run spin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the voter and the list of questions. Added txt file with instructions on how to run spin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1096,8 +1102,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/voter/voter.pml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16017798">
-          <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+        <state vertical-scroll-proportion="0.3403782">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding />
         </state>
       </provider>
