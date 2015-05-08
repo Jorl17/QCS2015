@@ -6,20 +6,18 @@ proctype H()
 {
 	////
 	// Select behaviour for the system:
-	//  1 - Correct Value
-	//  2 - Incorrect Value
-	//  3 - Timeout
-	//  4 - Wrong Parameters (Needed?)
+	//  1 - Correct Value -- Meter aqui dois valores possiveis correctos
+	//  2 - Incorrect Value + Timeout
 	////
 	:: behaviours[_pid-1] = 1;
 	:: behaviours[_pid-1] = 2;
-	:: behaviours[_pid-1] = 3;
-	:: behaviours[_pid-1] = 4;
 	od;
 }
 
 init
 {
+	//Decide which process CAN have timeout
+
 	//Execute processes
 	atomic
 	{
@@ -31,5 +29,9 @@ init
 	//Wait for the child processes to die
 	(_nr_pr == 1);
 
-	
+	//Process the result values returned from the web services
+
+	//Exclude the answers with timeout and wrong parameters (?)
+
+	//Take the median result from the valid answers -- If no valid answers return -1?
 }

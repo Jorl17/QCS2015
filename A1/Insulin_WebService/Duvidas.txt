@@ -4,3 +4,5 @@ Dúvidas:
 2 - Excepção pode ser considerado valor incorrecto?
 3 - Temos que ter em conta a probabilidade do Web Service funcionar bem? (i.e. gerar mais casos em que tudo corre bem para reflectir um comportamento correcto probabilisticamente mais esperado para o web service)
 4 - Parâmetros errados podem ser considerados como resposta errada ou tem que ser algo à parte?
+
+Diferenças de um para cima e para baixo
