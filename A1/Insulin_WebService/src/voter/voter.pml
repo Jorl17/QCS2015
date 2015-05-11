@@ -1,10 +1,12 @@
 #define N 3
 
 short behaviours[N];
-short process_timeout;
+short processTimeout;
 
 proctype H()
 {
+    int myBehaviour;
+
 	////
 	// Select behaviour for the system:
 	//  1 - Correct Value
@@ -12,23 +14,17 @@ proctype H()
 	//  3 - Incorrect Value + Timeout
 	////
 	if
-	:: process_timeout == _pid -> behaviours[_pid-1] = 3;
-	:: else -> 	do
-               	:: behaviours[_pid-1] = 1;
-               	:: behaviours[_pid-1] = 2;
-               	od;
+	:: processTimeout == _pid -> myBehaviour = 3;
+	:: else -> 	select ( myBehaviour : 1..2 );
 	fi;
+
+	behaviours[_pid-1] = myBehaviour;
 }
 
 init
 {
 	//Decide which process CAN have timeout
-	do
-	:: process_timeout = 0;
-	:: process_timeout = 1;
-	:: process_timeout = 2;
-	:: process_timeout = 3;
-	od;
+	select ( processTimeout : 0..3 );
 
 	//Execute processes
 	atomic
@@ -41,9 +37,9 @@ init
 	//Wait for the child processes to die
 	(_nr_pr == 1);
 
-	//Process the result values returned from the web services
+	printf("[DEBUG]VALUES: %d %d %d --> %d\n", behaviours[0], behaviours[1], behaviours[2], processTimeout);
 
-	//Exclude the answers with timeout and wrong parameters (?)
+	//Process the result values returned from the web services -- Either do the middle value or the median of the two values!
 
-	//Take the median result from the valid answers -- If no valid answers return -1?
+
 }
