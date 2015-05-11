@@ -39,7 +39,9 @@ init
 
 	printf("[DEBUG]VALUES: %d %d %d --> %d\n", behaviours[0], behaviours[1], behaviours[2], processTimeout);
 
-	//Process the result values returned from the web services -- Either do the middle value or the median of the two values!
-
-
+	////
+	// Process the result values returned from the web services
+	// 1 - Sort the values, excluding the invalid value, if any
+	// 2 - Select the median value (which depends on the number of values considered)
+	////
 }

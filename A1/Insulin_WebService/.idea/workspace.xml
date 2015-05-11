@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ab459c3-c2cf-44ed-90c5-c390aca9ede6" name="Default" comment="Added script to run promela code">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/voter/spin.sh" afterPath="$PROJECT_DIR$/src/voter/spin.sh" />
+    <list default="true" id="0ab459c3-c2cf-44ed-90c5-c390aca9ede6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/voter/voter.pml" afterPath="$PROJECT_DIR$/src/voter/voter.pml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -31,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/voter/voter.pml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.7947883">
-              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -585,7 +584,7 @@
       <workItem from="1431101799074" duration="43000" />
       <workItem from="1431101857259" duration="645000" />
       <workItem from="1431102518989" duration="4359000" />
-      <workItem from="1431336097722" duration="3127000" />
+      <workItem from="1431336097722" duration="4163000" />
     </task>
     <task id="LOCAL-00001" summary="Server example created">
       <created>1428487083497</created>
@@ -695,11 +694,17 @@
       <option name="project" value="LOCAL" />
       <updated>1431338697879</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Were selecting the values in a wrong way... Changed it to use the select instruction">
+      <created>1431339758529</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1431339758529</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34705000" />
+    <option name="totallyTimeSpent" value="35741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -772,7 +777,8 @@
     <MESSAGE value="Small updates to the voter" />
     <MESSAGE value="Output selection done in the voter?" />
     <MESSAGE value="Added script to run promela code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added script to run promela code" />
+    <MESSAGE value="Were selecting the values in a wrong way... Changed it to use the select instruction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Were selecting the values in a wrong way... Changed it to use the select instruction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1145,7 +1151,7 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7947883">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
           <folding />
         </state>
       </provider>
