@@ -6,11 +6,13 @@ proctype H()
 {
 	////
 	// Select behaviour for the system:
-	//  1 - Correct Value -- Meter aqui dois valores possiveis correctos
-	//  2 - Incorrect Value + Timeout
+	//  1 - Correct Value
+	//  2 - Correct Value
+	//  3 - Incorrect Value + Timeout
 	////
 	:: behaviours[_pid-1] = 1;
 	:: behaviours[_pid-1] = 2;
+	:: behaviours[_pid-1] = 3;
 	od;
 }
 
