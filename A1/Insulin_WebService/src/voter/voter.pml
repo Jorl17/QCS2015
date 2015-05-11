@@ -1,6 +1,7 @@
 #define N 3
 
 short behaviours[N];
+short process_timeout;
 
 proctype H()
 {
@@ -10,15 +11,24 @@ proctype H()
 	//  2 - Correct Value
 	//  3 - Incorrect Value + Timeout
 	////
-	:: behaviours[_pid-1] = 1;
-	:: behaviours[_pid-1] = 2;
-	:: behaviours[_pid-1] = 3;
-	od;
+	if
+	:: process_timeout == _pid -> behaviours[_pid-1] = 3;
+	:: else -> 	do
+               	:: behaviours[_pid-1] = 1;
+               	:: behaviours[_pid-1] = 2;
+               	od;
+	fi;
 }
 
 init
 {
 	//Decide which process CAN have timeout
+	do
+	:: process_timeout = 0;
+	:: process_timeout = 1;
+	:: process_timeout = 2;
+	:: process_timeout = 3;
+	od;
 
 	//Execute processes
 	atomic
