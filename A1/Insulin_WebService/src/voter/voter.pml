@@ -55,21 +55,10 @@ init
 
 	////
 	// Process the result values returned from the web services
-	// 1 - Sort the values, excluding the invalid value, if any -- Use insertion sort or other sorting algorithm?
-	// 2 - Select the median value (which depends on the number of values considered)
 	////
 	if
-	:: processTimeout > 0 ->	for (i : 1 .. N) {
-								if
-								:: i != processTimeout -> result = result + behaviours[i-1];
-								:: else -> skip;
-								fi;
-								}
-								result = result / (N - 1);
-	:: else ->	if
-				:: numberOnes > numberTwos -> result = 1;
-				:: else -> result = 2;
-				fi;
+	:: numberTwos > numberOnes -> result = 2;
+	:: else -> result = 1;
 	fi;
 
 	printf("Deu %d\n", result);
