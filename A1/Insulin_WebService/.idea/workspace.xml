@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ab459c3-c2cf-44ed-90c5-c390aca9ede6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/voter/spin.sh" afterPath="$PROJECT_DIR$/src/voter/spin.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/voter/voter.pml" afterPath="$PROJECT_DIR$/src/voter/voter.pml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Insulin_WebService.iws" />
@@ -617,7 +615,7 @@
       <workItem from="1431371564336" duration="30000" />
       <workItem from="1431534356177" duration="1206000" />
       <workItem from="1431560972770" duration="1820000" />
-      <workItem from="1431564450156" duration="1164000" />
+      <workItem from="1431564450156" duration="1262000" />
     </task>
     <task id="LOCAL-00001" summary="Server example created">
       <created>1428487083497</created>
@@ -739,11 +737,17 @@
       <option name="project" value="LOCAL" />
       <updated>1431340809590</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Added documentation for the script to run the voter in promela">
+      <created>1431565708452</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1431565708452</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41281000" />
+    <option name="totallyTimeSpent" value="41379000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -818,7 +822,8 @@
     <MESSAGE value="Added script to run promela code" />
     <MESSAGE value="Were selecting the values in a wrong way... Changed it to use the select instruction" />
     <MESSAGE value="Added comment explaining the idea behind the final phase of the voter. Check how to sort elements in arrays in promela!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added comment explaining the idea behind the final phase of the voter. Check how to sort elements in arrays in promela!!!" />
+    <MESSAGE value="Added documentation for the script to run the voter in promela" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added documentation for the script to run the voter in promela" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
