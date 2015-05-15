@@ -81,7 +81,9 @@ public class InsulinDoseCalculator {
     public int mealtimeInsulinDose(int carbohydrateAmount, int carbohydrateToInsulinRatio, int preMealBloodSugar, int targetBloodSugar, int personalSensitivity)
     {
         double insulineAfterMeal, highBloodSugarDose, carboDose;
-        //60, 12, 200, 100, 25 -- 14
+        double personalSensitivity_double = personalSensitivity;
+        double carbohydrateAmount_double = carbohydrateAmount;
+        double carbohydrateToInsulinRatio_double = carbohydrateToInsulinRatio;
 
         //Check the inputs parameters
         if (carbohydrateAmount < 60 || carbohydrateAmount > 120)
@@ -102,9 +104,9 @@ public class InsulinDoseCalculator {
         else if (targetBloodSugar > preMealBloodSugar)
             return 0;
 
-        highBloodSugarDose = (preMealBloodSugar - targetBloodSugar) / personalSensitivity; // Calculate high blood sugar dose
+        highBloodSugarDose = (preMealBloodSugar - targetBloodSugar) / personalSensitivity_double; // Calculate high blood sugar dose
 
-        carboDose = 50 * carbohydrateAmount / carbohydrateToInsulinRatio / personalSensitivity; // Calculate carbohydrate dose
+        carboDose = 50 * carbohydrateAmount_double / carbohydrateToInsulinRatio_double / personalSensitivity_double; // Calculate carbohydrate dose
 
         insulineAfterMeal = highBloodSugarDose + carboDose; // Needed insulin after meal time
 
