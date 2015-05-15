@@ -31,20 +31,8 @@ import javax.xml.ws.Endpoint;
  * @version 1.1
  */
 @WebService
-public class InsulinDoseCalculator {
-
-    public void InsulinDoseCalculator()
-    {
-
-    }
-
-    @WebMethod
-    public String sayHelloWorldFrom(String from)
-    {
-        String result = "Hello, world, from " + from;
-        System.out.println(result);
-        return result;
-    }
+public class InsulinDoseCalculator
+{
 
     /**
      * Calculates the number of insulin units needed after one meal.
