@@ -82,12 +82,12 @@ inline callWebServices()
  	if
     :: true -> processTimeout = 0;
     :: true -> processTimeout = 1; results[0] = -1;
-    //:: true -> processTimeout = 2; results[1] = -1;
-    //:: true -> processTimeout = 3; results[2] = -1;
-    //:: true -> processTimeout = 4; results[0] = -1; results[1] = -1;
-    //:: true -> processTimeout = 5; results[0] = -1; results[2] = -1;
-    //:: true -> processTimeout = 6; results[1] = -1; results[2] = -1;
-    //:: true -> processTimeout = 7; results[0] = -1; results[1] = -1; results[2] = -1;
+    :: true -> processTimeout = 2; results[1] = -1;
+    :: true -> processTimeout = 3; results[2] = -1;
+    :: true -> processTimeout = 4; results[0] = -1; results[1] = -1;
+    :: true -> processTimeout = 5; results[0] = -1; results[2] = -1;
+    :: true -> processTimeout = 6; results[1] = -1; results[2] = -1;
+    :: true -> processTimeout = 7; results[0] = -1; results[1] = -1; results[2] = -1;
   	fi;
 
 	//Actually call the WebServices
