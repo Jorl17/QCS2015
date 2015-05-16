@@ -8,5 +8,8 @@
 
 # Compile and execute that verifier, following simulation trail and printing all the statements
 cc pan.c -o pan
+
 ./pan
-/home/joaquim/Downloads/Spin/Src6.4.3/spin -a -t -p voter.pml
+
+
+/home/joaquim/Downloads/Spin/Src6.4.3/spin -t -p voter.pml
