@@ -356,16 +356,8 @@
 		;
 		;
 		;
-		;
-		;
-		;
-		;
-		;
-		;
-		;
-		;
 		
-	case 78: // STATE 147
+	case 74: // STATE 137
 		;
 		now.MY_FALSE = trpt->bup.oval;
 		;
@@ -373,7 +365,7 @@
 ;
 		;
 		
-	case 80: // STATE 149
+	case 76: // STATE 139
 		;
 		p_restor(II);
 		;
@@ -386,31 +378,31 @@
 		;
 		;
 		
-	case 83: // STATE 4
+	case 79: // STATE 4
 		;
 		((P0 *)this)->myResult = trpt->bup.oval;
 		;
 		goto R999;
 
-	case 84: // STATE 5
+	case 80: // STATE 5
 		;
 		((P0 *)this)->myResult = trpt->bup.oval;
 		;
 		goto R999;
 
-	case 85: // STATE 6
+	case 81: // STATE 6
 		;
 		((P0 *)this)->myResult = trpt->bup.oval;
 		;
 		goto R999;
 
-	case 86: // STATE 7
+	case 82: // STATE 7
 		;
 		((P0 *)this)->myResult = trpt->bup.oval;
 		;
 		goto R999;
 
-	case 87: // STATE 8
+	case 83: // STATE 8
 		;
 		((P0 *)this)->myResult = trpt->bup.oval;
 		;
@@ -418,13 +410,13 @@
 ;
 		;
 		
-	case 89: // STATE 14
+	case 85: // STATE 14
 		;
 		now.results[ Index((((P0 *)this)->_pid-1), 3) ] = trpt->bup.oval;
 		;
 		goto R999;
 
-	case 90: // STATE 15
+	case 86: // STATE 15
 		;
 		now.cardinalityResults[ Index((((P0 *)this)->myResult-1), 5) ] = trpt->bup.oval;
 		;
@@ -432,7 +424,7 @@
 ;
 		;
 		
-	case 92: // STATE 21
+	case 88: // STATE 21
 		;
 		p_restor(II);
 		;

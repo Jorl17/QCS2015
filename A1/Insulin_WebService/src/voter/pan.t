@@ -26,7 +26,7 @@ settable(void)
 
 	/* proctype 1: :init: */
 
-	trans[1] = (Trans **) emalloc(150*sizeof(Trans *));
+	trans[1] = (Trans **) emalloc(140*sizeof(Trans *));
 
 	trans[1][1]	= settr(21,0,127,3,3,"currentIteration = 1", 1, 2, 0);
 	trans[1][128]	= settr(148,0,127,1,0,".(goto)", 0, 2, 0);
@@ -195,32 +195,18 @@ settable(void)
 	trans[1][125]	= settr(145,0,130,2,0,"else", 0, 2, 0);
 	trans[1][126]	= settr(146,0,130,1,0,"goto :b0", 0, 2, 0);
 	trans[1][129]	= settr(149,0,130,1,0,"break", 0, 2, 0);
-	trans[1][130]	= settr(150,0,145,70,0,"printf('The result is %d\\n',voterResult)", 1, 2, 0);
-	T = trans[1][145] = settr(165,0,0,0,0,"IF", 0, 2, 0);
-	T = T->nxt	= settr(165,0,131,0,0,"IF", 0, 2, 0);
-	    T->nxt	= settr(165,0,138,0,0,"IF", 0, 2, 0);
-	trans[1][131]	= settr(151,0,136,71,0,"((hasEqual==1))", 1, 2, 0);
-	T = trans[1][136] = settr(156,0,0,0,0,"IF", 0, 2, 0);
-	T = T->nxt	= settr(156,0,132,0,0,"IF", 0, 2, 0);
-	    T->nxt	= settr(156,0,134,0,0,"IF", 0, 2, 0);
-	trans[1][132]	= settr(152,0,133,72,0,"((voterResult==-(1)))", 1, 2, 0);
-	trans[1][133]	= settr(153,0,147,73,0,"printf('Tudo ok\\n')", 0, 2, 0);
-	trans[1][137]	= settr(157,0,147,1,0,".(goto)", 0, 2, 0);
-	trans[1][134]	= settr(154,0,135,2,0,"else", 0, 2, 0);
-	trans[1][135]	= settr(155,0,147,74,0,"assert(0)", 0, 2, 0);
-	trans[1][146]	= settr(166,0,147,1,0,".(goto)", 0, 2, 0);
-	trans[1][138]	= settr(158,0,143,2,0,"else", 0, 2, 0);
-	T = trans[1][143] = settr(163,0,0,0,0,"IF", 0, 2, 0);
-	T = T->nxt	= settr(163,0,139,0,0,"IF", 0, 2, 0);
-	    T->nxt	= settr(163,0,141,0,0,"IF", 0, 2, 0);
-	trans[1][139]	= settr(159,0,140,75,0,"((voterResult==-(1)))", 1, 2, 0);
-	trans[1][140]	= settr(160,0,147,76,0,"assert(0)", 0, 2, 0);
-	trans[1][144]	= settr(164,0,147,1,0,".(goto)", 0, 2, 0);
-	trans[1][141]	= settr(161,0,142,2,0,"else", 0, 2, 0);
-	trans[1][142]	= settr(162,0,147,77,0,"printf('Tudo ok\\n')", 0, 2, 0);
-	trans[1][147]	= settr(167,0,148,78,78,"MY_FALSE = 1", 1, 2, 0);
-	trans[1][148]	= settr(168,0,149,79,0,"printf('Terminei %d\\n',_nr_pr)", 1, 2, 0);
-	trans[1][149]	= settr(169,0,0,80,80,"-end-", 0, 3500, 0);
+	trans[1][130]	= settr(150,0,135,70,0,"printf('The result is %d\\n',voterResult)", 1, 2, 0);
+	T = trans[1][135] = settr(155,0,0,0,0,"IF", 0, 2, 0);
+	T = T->nxt	= settr(155,0,131,0,0,"IF", 0, 2, 0);
+	    T->nxt	= settr(155,0,133,0,0,"IF", 0, 2, 0);
+	trans[1][131]	= settr(151,0,132,71,0,"((hasEqual==1))", 1, 2, 0);
+	trans[1][132]	= settr(152,0,137,72,0,"assert((voterResult==-(1)))", 1, 2, 0);
+	trans[1][136]	= settr(156,0,137,1,0,".(goto)", 0, 2, 0);
+	trans[1][133]	= settr(153,0,134,2,0,"else", 0, 2, 0);
+	trans[1][134]	= settr(154,0,137,73,0,"assert((voterResult!=-(1)))", 1, 2, 0);
+	trans[1][137]	= settr(157,0,138,74,74,"MY_FALSE = 1", 1, 2, 0);
+	trans[1][138]	= settr(158,0,139,75,0,"printf('Terminei %d\\n',_nr_pr)", 1, 2, 0);
+	trans[1][139]	= settr(159,0,0,76,76,"-end-", 0, 3500, 0);
 
 	/* proctype 0: H */
 
@@ -229,8 +215,8 @@ settable(void)
 	T = trans[0][11] = settr(10,0,0,0,0,"IF", 0, 2, 0);
 	T = T->nxt	= settr(10,0,1,0,0,"IF", 0, 2, 0);
 	    T->nxt	= settr(10,0,3,0,0,"IF", 0, 2, 0);
-	trans[0][1]	= settr(0,0,2,81,0,"((results[(_pid-1)]==-(1)))", 1, 2, 0);
-	trans[0][2]	= settr(1,0,19,82,0,"(MY_FALSE)", 1, 2, 0);
+	trans[0][1]	= settr(0,0,2,77,0,"((results[(_pid-1)]==-(1)))", 1, 2, 0);
+	trans[0][2]	= settr(1,0,19,78,0,"(MY_FALSE)", 1, 2, 0);
 	trans[0][12]	= settr(11,0,19,1,0,".(goto)", 0, 2, 0);
 	trans[0][3]	= settr(2,0,9,2,0,"else", 0, 2, 0);
 	T = trans[0][9] = settr(8,0,0,0,0,"IF", 0, 2, 0);
@@ -239,23 +225,23 @@ settable(void)
 	T = T->nxt	= settr(8,0,6,0,0,"IF", 0, 2, 0);
 	T = T->nxt	= settr(8,0,7,0,0,"IF", 0, 2, 0);
 	    T->nxt	= settr(8,0,8,0,0,"IF", 0, 2, 0);
-	trans[0][4]	= settr(3,0,19,83,83,"myResult = 1", 0, 2, 0);
+	trans[0][4]	= settr(3,0,19,79,79,"myResult = 1", 0, 2, 0);
 	trans[0][10]	= settr(9,0,19,1,0,".(goto)", 0, 2, 0);
-	trans[0][5]	= settr(4,0,19,84,84,"myResult = 2", 0, 2, 0);
-	trans[0][6]	= settr(5,0,19,85,85,"myResult = 3", 0, 2, 0);
-	trans[0][7]	= settr(6,0,19,86,86,"myResult = 4", 0, 2, 0);
-	trans[0][8]	= settr(7,0,19,87,87,"myResult = 5", 0, 2, 0);
+	trans[0][5]	= settr(4,0,19,80,80,"myResult = 2", 0, 2, 0);
+	trans[0][6]	= settr(5,0,19,81,81,"myResult = 3", 0, 2, 0);
+	trans[0][7]	= settr(6,0,19,82,82,"myResult = 4", 0, 2, 0);
+	trans[0][8]	= settr(7,0,19,83,83,"myResult = 5", 0, 2, 0);
 	T = trans[0][19] = settr(18,0,0,0,0,"IF", 0, 2, 0);
 	T = T->nxt	= settr(18,0,13,0,0,"IF", 0, 2, 0);
 	    T->nxt	= settr(18,0,17,0,0,"IF", 0, 2, 0);
-	trans[0][13]	= settr(12,0,14,88,0,"((MY_FALSE==0))", 1, 2, 0);
-	trans[0][14]	= settr(13,0,15,89,89,"results[(_pid-1)] = myResult", 1, 2, 0);
-	trans[0][15]	= settr(14,0,16,90,90,"cardinalityResults[(myResult-1)] = (cardinalityResults[(myResult-1)]+1)", 1, 2, 0);
-	trans[0][16]	= settr(15,0,21,91,0,"printf('[%d]Retornei %d\\n',_pid,results[(_pid-1)])", 1, 2, 0);
+	trans[0][13]	= settr(12,0,14,84,0,"((MY_FALSE==0))", 1, 2, 0);
+	trans[0][14]	= settr(13,0,15,85,85,"results[(_pid-1)] = myResult", 1, 2, 0);
+	trans[0][15]	= settr(14,0,16,86,86,"cardinalityResults[(myResult-1)] = (cardinalityResults[(myResult-1)]+1)", 1, 2, 0);
+	trans[0][16]	= settr(15,0,21,87,0,"printf('[%d]Retornei %d\\n',_pid,results[(_pid-1)])", 1, 2, 0);
 	trans[0][20]	= settr(19,0,21,1,0,".(goto)", 0, 2, 0);
 	trans[0][17]	= settr(16,0,18,2,0,"else", 0, 2, 0);
 	trans[0][18]	= settr(17,0,21,1,0,"(1)", 0, 2, 0);
-	trans[0][21]	= settr(20,0,0,92,92,"-end-", 0, 3500, 0);
+	trans[0][21]	= settr(20,0,0,88,88,"-end-", 0, 3500, 0);
 	/* np_ demon: */
 	trans[_NP_] = (Trans **) emalloc(2*sizeof(Trans *));
 	T = trans[_NP_][0] = settr(9997,0,1,_T5,0,"(np_)", 1,2,0);

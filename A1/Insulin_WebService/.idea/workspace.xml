@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ab459c3-c2cf-44ed-90c5-c390aca9ede6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/voter/pan" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/voter/pan.b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/voter/pan.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/voter/pan.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/voter/pan.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/voter/pan.p" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/voter/pan.t" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/voter/voter.pml.trail" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/voter/pan" afterPath="$PROJECT_DIR$/src/voter/pan" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/voter/pan.b" afterPath="$PROJECT_DIR$/src/voter/pan.b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/voter/pan.c" afterPath="$PROJECT_DIR$/src/voter/pan.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/voter/pan.h" afterPath="$PROJECT_DIR$/src/voter/pan.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/voter/pan.m" afterPath="$PROJECT_DIR$/src/voter/pan.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/voter/pan.t" afterPath="$PROJECT_DIR$/src/voter/pan.t" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/voter/voter.pml" afterPath="$PROJECT_DIR$/src/voter/voter.pml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -37,8 +35,8 @@
       <file leaf-file-name="voter.pml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/voter/voter.pml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2931596">
-              <caret line="52" column="71" selection-start-line="52" selection-start-column="71" selection-end-line="52" selection-end-column="71" />
+            <state vertical-scroll-proportion="3.8436482">
+              <caret line="135" column="4" selection-start-line="135" selection-start-column="4" selection-end-line="135" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -619,7 +617,7 @@
       <workItem from="1431707245497" duration="3490000" />
       <workItem from="1431768942850" duration="16405000" />
       <workItem from="1431810737220" duration="106000" />
-      <workItem from="1431811452214" duration="2023000" />
+      <workItem from="1431811452214" duration="2559000" />
     </task>
     <task id="LOCAL-00001" summary="Server example created">
       <created>1428487083497</created>
@@ -795,11 +793,17 @@
       <option name="project" value="LOCAL" />
       <updated>1431812487289</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="It is done!">
+      <created>1431813485436</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1431813485436</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65181000" />
+    <option name="totallyTimeSpent" value="65717000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -812,12 +816,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.4936429" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.4936429" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -854,7 +858,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Just tried to recompile everything. It appears to be working" />
     <MESSAGE value="Corrected the input validation on the web service" />
     <MESSAGE value="Added Leonard as one of the authors of the code" />
     <MESSAGE value="WebService passed the test cases" />
@@ -879,7 +882,8 @@
     <MESSAGE value="Forgot to remove the comments" />
     <MESSAGE value="Added one more response. Tomorrow we need to clean up the code, remove resolved FIXME's and unecessary prints" />
     <MESSAGE value="Small correction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small correction" />
+    <MESSAGE value="It is done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="It is done!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1249,8 +1253,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/voter/voter.pml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2931596">
-          <caret line="52" column="71" selection-start-line="52" selection-start-column="71" selection-end-line="52" selection-end-column="71" />
+        <state vertical-scroll-proportion="3.8436482">
+          <caret line="135" column="4" selection-start-line="135" selection-start-column="4" selection-end-line="135" selection-end-column="4" />
           <folding />
         </state>
       </provider>

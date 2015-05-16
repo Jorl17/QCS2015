@@ -130,10 +130,10 @@ typedef struct S_F_MAP {
 	int upto;
 } S_F_MAP;
 
-#define nstates1	150	/* :init: */
+#define nstates1	140	/* :init: */
 #define minseq1	21
-#define maxseq1	169
-#define endstate1	149
+#define maxseq1	159
+#define endstate1	139
 
 #define nstates0	22	/* H */
 #define minseq0	0
@@ -146,8 +146,8 @@ extern S_F_MAP src_file1[];
 extern S_F_MAP src_file0[];
 
 #define T_ID	unsigned char
-#define _T5	93
-#define _T2	94
+#define _T5	89
+#define _T2	90
 #define WS		8 /* word size in bytes */
 #define SYNC	0
 #define ASYNC	0
@@ -778,7 +778,7 @@ void qsend(int, int, int);
 #define GLOBAL	7
 #define BAD	8
 #define ALPHA_F	9
-#define NTRANS	95
+#define NTRANS	91
 #if defined(BFS_PAR) || NCORE>1
 	void e_critical(int);
 	void x_critical(int);

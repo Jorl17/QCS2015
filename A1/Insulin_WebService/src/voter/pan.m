@@ -628,41 +628,19 @@
 		if (!((now.hasEqual==1)))
 			continue;
 		_m = 3; goto P999; /* 0 */
-	case 72: // STATE 132 - voter.pml:138 - [((voterResult==-(1)))] (0:0:0 - 1)
+	case 72: // STATE 132 - voter.pml:137 - [assert((voterResult==-(1)))] (0:0:0 - 1)
 		IfNotBlocked
 		reached[1][132] = 1;
-		if (!((now.voterResult== -(1))))
-			continue;
+		spin_assert((now.voterResult== -(1)), "(voterResult== -(1))", II, tt, t);
 		_m = 3; goto P999; /* 0 */
-	case 73: // STATE 133 - voter.pml:138 - [printf('Tudo ok\\n')] (0:0:0 - 1)
+	case 73: // STATE 134 - voter.pml:138 - [assert((voterResult!=-(1)))] (0:0:0 - 1)
 		IfNotBlocked
-		reached[1][133] = 1;
-		Printf("Tudo ok\n");
+		reached[1][134] = 1;
+		spin_assert((now.voterResult!= -(1)), "(voterResult!= -(1))", II, tt, t);
 		_m = 3; goto P999; /* 0 */
-	case 74: // STATE 135 - voter.pml:139 - [assert(0)] (0:0:0 - 1)
+	case 74: // STATE 137 - voter.pml:141 - [MY_FALSE = 1] (0:0:1 - 3)
 		IfNotBlocked
-		reached[1][135] = 1;
-		spin_assert(0, "0", II, tt, t);
-		_m = 3; goto P999; /* 0 */
-	case 75: // STATE 139 - voter.pml:142 - [((voterResult==-(1)))] (0:0:0 - 1)
-		IfNotBlocked
-		reached[1][139] = 1;
-		if (!((now.voterResult== -(1))))
-			continue;
-		_m = 3; goto P999; /* 0 */
-	case 76: // STATE 140 - voter.pml:142 - [assert(0)] (0:0:0 - 1)
-		IfNotBlocked
-		reached[1][140] = 1;
-		spin_assert(0, "0", II, tt, t);
-		_m = 3; goto P999; /* 0 */
-	case 77: // STATE 142 - voter.pml:143 - [printf('Tudo ok\\n')] (0:0:0 - 1)
-		IfNotBlocked
-		reached[1][142] = 1;
-		Printf("Tudo ok\n");
-		_m = 3; goto P999; /* 0 */
-	case 78: // STATE 147 - voter.pml:147 - [MY_FALSE = 1] (0:0:1 - 7)
-		IfNotBlocked
-		reached[1][147] = 1;
+		reached[1][137] = 1;
 		(trpt+1)->bup.oval = now.MY_FALSE;
 		now.MY_FALSE = 1;
 #ifdef VAR_RANGES
@@ -670,31 +648,31 @@
 #endif
 		;
 		_m = 3; goto P999; /* 0 */
-	case 79: // STATE 148 - voter.pml:149 - [printf('Terminei %d\\n',_nr_pr)] (0:0:0 - 1)
+	case 75: // STATE 138 - voter.pml:143 - [printf('Terminei %d\\n',_nr_pr)] (0:0:0 - 1)
 		IfNotBlocked
-		reached[1][148] = 1;
+		reached[1][138] = 1;
 		Printf("Terminei %d\n", ((int)now._nr_pr));
 		_m = 3; goto P999; /* 0 */
-	case 80: // STATE 149 - voter.pml:150 - [-end-] (0:0:0 - 1)
+	case 76: // STATE 139 - voter.pml:144 - [-end-] (0:0:0 - 1)
 		IfNotBlocked
-		reached[1][149] = 1;
+		reached[1][139] = 1;
 		if (!delproc(1, II)) continue;
 		_m = 3; goto P999; /* 0 */
 
 		 /* PROC H */
-	case 81: // STATE 1 - voter.pml:48 - [((results[(_pid-1)]==-(1)))] (0:0:0 - 1)
+	case 77: // STATE 1 - voter.pml:48 - [((results[(_pid-1)]==-(1)))] (0:0:0 - 1)
 		IfNotBlocked
 		reached[0][1] = 1;
 		if (!((now.results[ Index((((int)((P0 *)this)->_pid)-1), 3) ]== -(1))))
 			continue;
 		_m = 3; goto P999; /* 0 */
-	case 82: // STATE 2 - voter.pml:48 - [(MY_FALSE)] (0:0:0 - 1)
+	case 78: // STATE 2 - voter.pml:48 - [(MY_FALSE)] (0:0:0 - 1)
 		IfNotBlocked
 		reached[0][2] = 1;
 		if (!(now.MY_FALSE))
 			continue;
 		_m = 3; goto P999; /* 0 */
-	case 83: // STATE 4 - voter.pml:49 - [myResult = 1] (0:0:1 - 1)
+	case 79: // STATE 4 - voter.pml:49 - [myResult = 1] (0:0:1 - 1)
 		IfNotBlocked
 		reached[0][4] = 1;
 		(trpt+1)->bup.oval = ((P0 *)this)->myResult;
@@ -704,7 +682,7 @@
 #endif
 		;
 		_m = 3; goto P999; /* 0 */
-	case 84: // STATE 5 - voter.pml:49 - [myResult = 2] (0:0:1 - 1)
+	case 80: // STATE 5 - voter.pml:49 - [myResult = 2] (0:0:1 - 1)
 		IfNotBlocked
 		reached[0][5] = 1;
 		(trpt+1)->bup.oval = ((P0 *)this)->myResult;
@@ -714,7 +692,7 @@
 #endif
 		;
 		_m = 3; goto P999; /* 0 */
-	case 85: // STATE 6 - voter.pml:49 - [myResult = 3] (0:0:1 - 1)
+	case 81: // STATE 6 - voter.pml:49 - [myResult = 3] (0:0:1 - 1)
 		IfNotBlocked
 		reached[0][6] = 1;
 		(trpt+1)->bup.oval = ((P0 *)this)->myResult;
@@ -724,7 +702,7 @@
 #endif
 		;
 		_m = 3; goto P999; /* 0 */
-	case 86: // STATE 7 - voter.pml:49 - [myResult = 4] (0:0:1 - 1)
+	case 82: // STATE 7 - voter.pml:49 - [myResult = 4] (0:0:1 - 1)
 		IfNotBlocked
 		reached[0][7] = 1;
 		(trpt+1)->bup.oval = ((P0 *)this)->myResult;
@@ -734,7 +712,7 @@
 #endif
 		;
 		_m = 3; goto P999; /* 0 */
-	case 87: // STATE 8 - voter.pml:49 - [myResult = 5] (0:0:1 - 1)
+	case 83: // STATE 8 - voter.pml:49 - [myResult = 5] (0:0:1 - 1)
 		IfNotBlocked
 		reached[0][8] = 1;
 		(trpt+1)->bup.oval = ((P0 *)this)->myResult;
@@ -744,13 +722,13 @@
 #endif
 		;
 		_m = 3; goto P999; /* 0 */
-	case 88: // STATE 13 - voter.pml:55 - [((MY_FALSE==0))] (0:0:0 - 1)
+	case 84: // STATE 13 - voter.pml:55 - [((MY_FALSE==0))] (0:0:0 - 1)
 		IfNotBlocked
 		reached[0][13] = 1;
 		if (!((now.MY_FALSE==0)))
 			continue;
 		_m = 3; goto P999; /* 0 */
-	case 89: // STATE 14 - voter.pml:55 - [results[(_pid-1)] = myResult] (0:0:1 - 1)
+	case 85: // STATE 14 - voter.pml:55 - [results[(_pid-1)] = myResult] (0:0:1 - 1)
 		IfNotBlocked
 		reached[0][14] = 1;
 		(trpt+1)->bup.oval = now.results[ Index((((int)((P0 *)this)->_pid)-1), 3) ];
@@ -760,7 +738,7 @@
 #endif
 		;
 		_m = 3; goto P999; /* 0 */
-	case 90: // STATE 15 - voter.pml:55 - [cardinalityResults[(myResult-1)] = (cardinalityResults[(myResult-1)]+1)] (0:0:1 - 1)
+	case 86: // STATE 15 - voter.pml:55 - [cardinalityResults[(myResult-1)] = (cardinalityResults[(myResult-1)]+1)] (0:0:1 - 1)
 		IfNotBlocked
 		reached[0][15] = 1;
 		(trpt+1)->bup.oval = now.cardinalityResults[ Index((((P0 *)this)->myResult-1), 5) ];
@@ -770,12 +748,12 @@
 #endif
 		;
 		_m = 3; goto P999; /* 0 */
-	case 91: // STATE 16 - voter.pml:55 - [printf('[%d]Retornei %d\\n',_pid,results[(_pid-1)])] (0:0:0 - 1)
+	case 87: // STATE 16 - voter.pml:55 - [printf('[%d]Retornei %d\\n',_pid,results[(_pid-1)])] (0:0:0 - 1)
 		IfNotBlocked
 		reached[0][16] = 1;
 		Printf("[%d]Retornei %d\n", ((int)((P0 *)this)->_pid), now.results[ Index((((int)((P0 *)this)->_pid)-1), 3) ]);
 		_m = 3; goto P999; /* 0 */
-	case 92: // STATE 21 - voter.pml:58 - [-end-] (0:0:0 - 3)
+	case 88: // STATE 21 - voter.pml:58 - [-end-] (0:0:0 - 3)
 		IfNotBlocked
 		reached[0][21] = 1;
 		if (!delproc(1, II)) continue;

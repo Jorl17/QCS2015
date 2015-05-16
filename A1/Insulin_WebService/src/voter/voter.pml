@@ -134,14 +134,8 @@ init
 	printf("The result is %d\n", voterResult);
 
 	if
-	:: hasEqual == 1 -> if
-						:: voterResult == -1 -> printf("Tudo ok\n");
-						:: else -> assert(0);
-						fi;
-	:: else -> if
-			   :: voterResult == -1 -> assert(0);
-			   :: else -> printf("Tudo ok\n");
-			   fi;
+	:: hasEqual == 1 -> assert(voterResult==-1);
+	:: else -> assert(voterResult!=-1);
 	fi;
 
 	MY_FALSE = 1;
