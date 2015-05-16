@@ -1,6 +1,6 @@
 #define N 3
 #define MAX_ITERATIONS 1
-#define NUMBER_RESULTS 4
+#define NUMBER_RESULTS 5
 
 ////
 // Every single line of code in this document feels wrong, useless and, quite frankly, stupid.
@@ -52,11 +52,12 @@ proctype H()
 	//  2 - Correct Value
 	//  3 - Correct Value
 	//  4 - Incorrect Value
+	//  5 - Incorrect Value
 	//  Otherwise just block
 	////
 	if
 	:: results[_pid-1] == -1 -> (false);
-	:: else -> 	select ( myResult : 1..4 );
+	:: else -> 	select ( myResult : 1..5 );
 	fi;
 
 	//Store result and increment its cardinality
