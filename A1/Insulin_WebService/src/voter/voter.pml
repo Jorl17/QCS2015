@@ -62,7 +62,7 @@ proctype H()
 
 	//Store result and increment its cardinality
 	results[_pid-1] = myResult;
-	cardinalityResults[myResult-1] = cardinalityResults[myResult-1] + 1;
+	cardinalityResults[myResult-1]++;
 
 	printf("[%d]Retornei %d\n", _pid, results[_pid-1]);
 }
