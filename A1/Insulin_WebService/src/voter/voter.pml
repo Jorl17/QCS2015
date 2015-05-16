@@ -2,20 +2,6 @@
 #define MAX_ITERATIONS 1
 #define NUMBER_RESULTS 5
 
-////
-// Every single line of code in this document feels wrong, useless and, quite frankly, stupid.
-// I have no idea how to formally verify the proposed voter in the context of the proposed problem, and the more I
-// code the more I feel that I have learnt nothing from the classes.
-// Now, more than ever, I know I don't understand anything related to formal verification of programs. I
-// simply cannot understand how can one implement the given voter in a way that will allow us to actually state that
-// the given voter is correct in a formal way: I feel it is impossible to assure the correct behaviour of our voter
-// based on a model implemented in Promela, mostly because I cannot understand how to formulate this model according
-// to what was taught in the classes. It simply does not make sense to me, it feels wrong and useless.
-//
-// Joaquim Leitão - QCS 2014/2015
-//
-////
-
 int results[N];
 int cardinalityResults[NUMBER_RESULTS];
 int processTimeout;
@@ -25,6 +11,7 @@ int maxCardinalityIndex;
 int voterResult;
 int currentIteration;
 int i;
+int MY_FALSE;
 
 inline clearVariables()
 {
@@ -40,6 +27,8 @@ inline clearVariables()
 	hasEqual = 0;
 	maxCardinalityIndex = -1;
 	voterResult = -1;
+
+	MY_FALSE = 0;
 }
 
 proctype H()
@@ -56,15 +45,16 @@ proctype H()
 	//  Otherwise just block
 	////
 	if
-	:: results[_pid-1] == -1 -> (false);
+	:: results[_pid-1] == -1 -> (MY_FALSE);
 	:: else -> 	select ( myResult : 1..5 );
 	fi;
 
 	//Store result and increment its cardinality
-	results[_pid-1] = myResult;
-	cardinalityResults[myResult-1]++;
-
-	printf("[%d]Retornei %d\n", _pid, results[_pid-1]);
+	//(This is code is getting so beautiful I cannot look at it anymore)
+	if
+	:: MY_FALSE == 0 -> results[_pid-1] = myResult; cardinalityResults[myResult-1]++; printf("[%d]Retornei %d\n", _pid, results[_pid-1]);
+	:: else -> skip;
+	fi;
 }
 
 inline callWebServices()
@@ -153,6 +143,8 @@ init
 			   :: else -> printf("Tudo ok\n");
 			   fi;
 	fi;
+
+	MY_FALSE = 1;
 
 	printf("Terminei %d\n", _nr_pr);
 }

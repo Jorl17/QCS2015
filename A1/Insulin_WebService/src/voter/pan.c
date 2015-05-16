@@ -480,59 +480,65 @@ int _;	/* predefined write-only variable */
 #endif
 
 short src_ln1 [] = {
-	  0, 111, 111,  17,  17,  18,  17,  19, 
-	 19,  19,  21,  19,  21,  21,  22,  21, 
-	 23,  23,  23,  25,  23,  25,  26,  27, 
-	 28,  16,  58,  58,  59,  59,  59,  57, 
-	 69,  69,  70,  71,  56, 116,  94,  94, 
-	 96,  96,  96,  96,  97,  97,  98,  98, 
-	 95, 100,  94, 100, 100, 100, 103, 100, 
-	104, 104, 105, 105, 103, 107,  92, 117, 
-	 87,  94,  94,  96,  96,  96,  96,  97, 
-	 97,  98,  98,  95, 100,  94, 100, 100, 
-	100, 103, 100, 104, 104, 105, 105, 103, 
-	107,  92,  86, 115, 120, 121, 121, 122, 
-	122, 120, 124, 111, 124, 124, 124, 126, 
-	124, 126, 129, 130, 130, 131, 131, 129, 
-	133, 133, 134, 134, 135, 135, 133, 137, 
-	128, 139, 139, 140,   0, };
+	  0, 119, 119,  18,  18,  19,  18,  20, 
+	 20,  20,  22,  20,  22,  22,  23,  22, 
+	 24,  24,  24,  26,  24,  26,  27,  28, 
+	 29,  31,  17,  63,  63,  64,  64,  64, 
+	 65,  65,  65,  66,  66,  66,  67,  67, 
+	 67,  67,  68,  68,  68,  68,  69,  69, 
+	 69,  69,  70,  70,  70,  70,  70,  62, 
+	 74,  76,  77,  78,  74,  61, 124, 102, 
+	102, 104, 104, 104, 104, 105, 105, 106, 
+	106, 103, 108, 102, 108, 108, 108, 111, 
+	108, 112, 112, 113, 113, 111, 115, 100, 
+	125,  95, 102, 102, 104, 104, 104, 104, 
+	105, 105, 106, 106, 103, 108, 102, 108, 
+	108, 108, 111, 108, 112, 112, 113, 113, 
+	111, 115, 100,  94, 123, 128, 129, 129, 
+	130, 130, 128, 132, 119, 132, 132, 132, 
+	134, 132, 134, 137, 138, 138, 139, 139, 
+	137, 141, 141, 142, 142, 143, 143, 141, 
+	145, 136, 147, 147, 149, 150,   0, };
 S_F_MAP src_file1 [] = {
 	{ "-", 0, 0 },
-	{ "voter.pml", 1, 123 },
-	{ "-", 124, 125 }
+	{ "voter.pml", 1, 149 },
+	{ "-", 150, 151 }
 };
 uchar reached1 [] = {
 	  0,   0,   1,   1,   1,   0,   0,   1, 
 	  1,   0,   1,   1,   0,   1,   0,   0, 
 	  1,   1,   0,   1,   1,   0,   0,   0, 
-	  0,   0,   1,   0,   1,   0,   0,   1, 
-	  1,   0,   0,   0,   0,   1,   1,   1, 
-	  1,   0,   0,   0,   1,   0,   1,   1, 
-	  0,   1,   0,   1,   1,   0,   1,   1, 
-	  1,   0,   1,   0,   0,   1,   0,   1, 
-	  1,   1,   1,   1,   0,   0,   0,   1, 
-	  0,   1,   1,   0,   1,   0,   1,   1, 
-	  0,   1,   1,   1,   0,   1,   0,   0, 
-	  1,   0,   0,   0,   1,   1,   1,   1, 
+	  0,   0,   0,   1,   0,   1,   0,   0, 
+	  1,   0,   0,   1,   0,   0,   1,   0, 
+	  0,   0,   1,   0,   0,   0,   1,   0, 
+	  0,   0,   1,   0,   0,   0,   0,   1, 
+	  1,   1,   0,   0,   0,   0,   1,   1, 
+	  1,   1,   0,   0,   0,   1,   0,   1, 
 	  1,   0,   1,   0,   1,   1,   0,   1, 
-	  1,   0,   1,   1,   0,   1,   0,   0, 
-	  1,   1,   1,   0,   1,   0,   0,   1, 
-	  0,   1,   0,   0,   0, };
+	  1,   1,   0,   1,   0,   0,   1,   0, 
+	  1,   1,   1,   1,   1,   0,   0,   0, 
+	  1,   0,   1,   1,   0,   1,   0,   1, 
+	  1,   0,   1,   1,   1,   0,   1,   0, 
+	  0,   1,   0,   0,   0,   1,   1,   1, 
+	  1,   1,   0,   1,   0,   1,   1,   0, 
+	  1,   1,   0,   1,   1,   0,   1,   0, 
+	  0,   1,   1,   1,   0,   1,   0,   0, 
+	  1,   0,   1,   0,   0,   0,   0, };
 uchar *loopstate1;
 
 short src_ln0 [] = {
-	  0,  44,  44,  45,  45,  45,  45,  45, 
-	 45,  46,  43,  49,  49,  50,  52,  53, 
-	  0, };
+	  0,  48,  48,  49,  49,  49,  49,  49, 
+	 49,  49,  50,  47,  54,  55,  55,  55, 
+	 55,  56,  56,  54,  58,  58,   0, };
 S_F_MAP src_file0 [] = {
 	{ "-", 0, 0 },
-	{ "voter.pml", 1, 15 },
-	{ "-", 16, 17 }
+	{ "voter.pml", 1, 21 },
+	{ "-", 22, 23 }
 };
 uchar reached0 [] = {
 	  0,   1,   0,   1,   1,   1,   1,   1, 
-	  0,   1,   0,   1,   0,   0,   0,   0, 
-	  0, };
+	  1,   0,   1,   0,   1,   1,   0,   0, 
+	  0,   1,   1,   0,   1,   0,   0, };
 uchar *loopstate0;
 uchar reached2[3];  /* np_ */
 uchar *loopstate2;  /* np_ */
@@ -855,11 +861,11 @@ addproc(int calling_pid, int priority, int n)
 		break;
 	case 0:	/* H */
 		((P0 *)pptr(h))->_t = 0;
-		((P0 *)pptr(h))->_p = 10;
+		((P0 *)pptr(h))->_p = 11;
 #ifdef HAS_PRIORITY
 		((P0 *)pptr(h))->_priority = priority; /* was: 1 */
 #endif
-		reached0[10]=1;
+		reached0[11]=1;
 		/* params: */
 		/* locals: */
 		((P0 *)pptr(h))->myResult = 0;
@@ -11987,7 +11993,7 @@ iniglobals(int calling_pid)
 		}
 	}
 	{	int l_in;
-		for (l_in = 0; l_in < 4; l_in++)
+		for (l_in = 0; l_in < 5; l_in++)
 		{
 			now.cardinalityResults[l_in] = 0;
 		}
@@ -11999,6 +12005,7 @@ iniglobals(int calling_pid)
 		now.voterResult = 0;
 		now.currentIteration = 0;
 		now.i = 0;
+		now.MY_FALSE = 0;
 #ifdef VAR_RANGES
 	{	int l_in;
 		for (l_in = 0; l_in < 3; l_in++)
@@ -12007,7 +12014,7 @@ iniglobals(int calling_pid)
 		}
 	}
 	{	int l_in;
-		for (l_in = 0; l_in < 4; l_in++)
+		for (l_in = 0; l_in < 5; l_in++)
 		{
 			logval("cardinalityResults[l_in]", now.cardinalityResults[l_in]);
 		}
@@ -12018,6 +12025,7 @@ iniglobals(int calling_pid)
 		logval("voterResult", now.voterResult);
 		logval("currentIteration", now.currentIteration);
 		logval("i", now.i);
+		logval("MY_FALSE", now.MY_FALSE);
 #endif
 }
 
@@ -13717,7 +13725,7 @@ c_globals(void)
 		}
 	}
 	{	int l_in;
-		for (l_in = 0; l_in < 4; l_in++)
+		for (l_in = 0; l_in < 5; l_in++)
 		{
 			printf("	int    cardinalityResults[%d]:	%d\n", l_in, now.cardinalityResults[l_in]);
 		}
@@ -13728,6 +13736,7 @@ c_globals(void)
 	printf("	int    voterResult:	%d\n", now.voterResult);
 	printf("	int    currentIteration:	%d\n", now.currentIteration);
 	printf("	int    i:	%d\n", now.i);
+	printf("	int    MY_FALSE:	%d\n", now.MY_FALSE);
 }
 void
 c_locals(int pid, int tp)
@@ -13754,7 +13763,7 @@ c_chandump(int unused)
 {	unused++; /* avoid complaints */
 }
 
-Trans *t_id_lkup[138];
+Trans *t_id_lkup[170];
 
 
 #ifdef BFS_PAR
