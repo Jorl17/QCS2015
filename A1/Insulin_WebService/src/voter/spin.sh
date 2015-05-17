@@ -11,5 +11,4 @@ cc pan.c -o pan
 
 ./pan
 
-
 /home/joaquim/Downloads/Spin/Src6.4.3/spin -t -p voter.pml
