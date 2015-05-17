@@ -41,7 +41,7 @@ proctype H()
 	// Select behaviour for the WebService: Output value or block
 	////
 	do
-	:: results[_pid-1] == -1 -> printf("[%d]Vou dar timeout\n", _pid); (MY_FALSE); break;
+	:: results[_pid-1] == -1 -> (MY_FALSE); break;
 	:: else -> myResult = 1;
 			   do
 			   :: myResult < 6 -> myResult++;
@@ -53,7 +53,7 @@ proctype H()
 	//Store result and increment its cardinality
 	//(This is code is getting so beautiful I cannot look at it anymore)
 	do
-	:: MY_FALSE == 0 -> results[_pid-1] = myResult; cardinalityResults[myResult-1]++; printf("[%d]Retornei %d\n", _pid, results[_pid-1]); break;
+	:: MY_FALSE == 0 -> results[_pid-1] = myResult; cardinalityResults[myResult-1]++; break;
 	:: else -> break;
 	od;
 }
@@ -110,6 +110,12 @@ inline vote()
 	fi;
 }
 
+inline unlockProcesses()
+{
+	MY_FALSE = 1;
+	(_nr_pr == 1);
+}
+
 init
 {
 	for (currentIteration : 1 .. MAX_ITERATIONS) {
@@ -127,15 +133,14 @@ init
 		fi;
 
 		//Unlock all the locked processes and wait for them to die
-		MY_FALSE = 1;
-		(_nr_pr == 1);
+		unlockProcesses();
 	}
 
 	//Unlock all the locked processes and wait for them to die
-	MY_FALSE = 1;
-	(_nr_pr == 1);
+	unlockProcesses();
 
-	printf("The result is %d\n", voterResult);
+	//Assert that everything went according to plan
+	assert(_nr_pr == 1);
 
 	if
 	:: hasEqual == 1 -> assert(voterResult==-1);
@@ -143,5 +148,5 @@ init
 	:: else -> assert(voterResult!=-1);
 	fi;
 
-	printf("Terminei %d\n", _nr_pr);
+	printf("The result is %d\n", voterResult);
 }
