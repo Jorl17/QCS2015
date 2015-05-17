@@ -1,6 +1,6 @@
 #define N 3
 #define MAX_ITERATIONS 1
-#define NUMBER_RESULTS 6
+#define NUMBER_RESULTS 30
 
 int results[N];
 int cardinalityResults[NUMBER_RESULTS];
@@ -41,8 +41,13 @@ proctype H()
 	// Select behaviour for the WebService: Output value or block
 	////
 	do
-	:: results[_pid-1] == -1 -> printf("[%d]Vou dar timeout\n", _pid); numberTimeouts++; (MY_FALSE); break;
-	:: else -> 	select ( myResult : 1..6 ); break;
+	:: results[_pid-1] == -1 -> printf("[%d]Vou dar timeout\n", _pid); (MY_FALSE); break;
+	:: else -> myResult = 1;
+			   do
+			   :: myResult < 6 -> myResult++;
+			   :: break;
+			   od;
+			   break;
 	od;
 
 	//Store result and increment its cardinality
@@ -55,27 +60,20 @@ proctype H()
 
 inline callWebServices()
 {
-	////
-	// Decide which WebServices CAN have timeout
-	// 0 - No one has timeout
-	// 1 - WebService 1 has timeout
-	// 2 - WebService 2 has timeout
-	// 3 - WebService 3 has timeout
-	// 4 - WebServices 1 and 2 have timeout
-	// 5 - WebServices 1 and 3 have timeout
-	// 6 - WebServices 2 and 3 have timeout
-	// 7 - WebServices 1, 2 and 3 have timeout
-	////
- 	if
-    :: true -> processTimeout = 0;
-    :: true -> processTimeout = 1; results[0] = -1;
-    :: true -> processTimeout = 2; results[1] = -1;
-    :: true -> processTimeout = 3; results[2] = -1;
-    :: true -> processTimeout = 4; results[0] = -1; results[1] = -1;
-    :: true -> processTimeout = 5; results[0] = -1; results[2] = -1;
-    :: true -> processTimeout = 6; results[1] = -1; results[2] = -1;
-    :: true -> processTimeout = 7; results[0] = -1; results[1] = -1; results[2] = -1;
-  	fi;
+	// Decide which WebServices CAN have timeout (Cover all the combinations)
+	for (i : 1 .. N) {
+		//2am: Promela decided that selects are too mainstream so now I have to use do's everywhere... God I love this language <3 <3
+		processTimeout = 0;
+		do
+		:: processTimeout < N -> processTimeout++;
+		:: break;
+		od;
+
+		if
+		:: processTimeout < N -> results[processTimeout] = -1; numberTimeouts++;
+		:: else -> skip;
+		fi;
+	}
 
 	//Actually call the WebServices
 	atomic
