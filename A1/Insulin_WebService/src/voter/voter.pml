@@ -50,7 +50,7 @@ inline clearVariables()
 ////
 // Models the behaviour of a Web Service
 ////
-proctype H()
+proctype H(int index)
 {
 	int myResult;
 
@@ -58,7 +58,7 @@ proctype H()
 	// Select behaviour for the WebService: Output value or block
 	////
 	do
-	:: results[_pid-1] == -1 -> (MY_FALSE); break;
+	:: results[index] == -1 -> (MY_FALSE); break;
 	:: else -> myResult = 1;
 			   do
 			   :: myResult < 6 -> myResult++;
@@ -70,7 +70,7 @@ proctype H()
 	//Store result and increment its cardinality
 	//(This is code is getting so beautiful I cannot look at it anymore)
 	do
-	:: MY_FALSE == 0 -> results[_pid-1] = myResult; cardinalityResults[myResult-1]++; break;
+	:: MY_FALSE == 0 -> results[index] = myResult; cardinalityResults[myResult-1]++; break;
 	:: else -> break;
 	od;
 }
@@ -100,7 +100,7 @@ inline callWebServices()
 
 	//Actually call the WebServices
 	for (i : 1 .. N) {
-		run H();
+		run H(i-1);
 	}
 }
 
