@@ -1,0 +1,16 @@
+\chapter{Conclusion}
+\label{conclusion}
+
+    In summary, the first step of this work consisted of implementing a version of web-service following the structure previously defined. Afterwards, a \emph{Web Server} was implemented as well as a voting system for the final result. Finally, this voter was formally verified using the \emph{PROMELA} programming language.
+    
+    In our opinion, N-Version programming is a very useful process for the implementation of critical systems. Furthermore, the voting system is clearly the main part of this software process. Therefore, a strict set of criteria were defined to produced a reliable result to the patient. However, we consider that other criteria should be defined to avoid some undesired situations.
+    
+    According to the implementation proposed in this work, considering the following set of results: [1,1,1,2,6,6,6] the voted result is 1. However, this is an ambiguous result given that we consider that is not possible to reach a clearly majority with this set of results: We simply have more \emph{1's} and \emph{6's} because we considered results that differ one unit to be the same, but even considering this we do not have a clear consensus among the selected \emph{Web Services}. A hypothetical alternative could be to check the result with an another set web-services, used specifically for these types of situations.
+    
+    It is also worth mentioning that, while we understand the importance and value that a formal verification of a software entity adds to the quality, dependability and reliability of any system, we still struggled with this task in our assignment. This was mostly due to the restrictions imposed by \emph{Promela} (which only allows programmers to use an adapted and very restrict set of the \emph{C} programming language, making it extremely difficult for us to model the interactions between the different entities in our system, as we would liked to have done, instead of just modelling the voting operation.
+    
+    We also feel that we should have found a better way to model the behaviour of each \emph{Web Service}, as simply generating random values in a previously defined range does not feel very realistic and adequate. However, we were unable to come up with a better alternative, and ended up with the presented model. Probably one of our biggest disappointments in this work was exactly the fact we felt we were not taking full advantage of both the \emph{Promela} and \emph{SPIN} tools.
+    
+    Nevertheless, we were still able to model and test some interesting behaviours,like the similarity between values that differ only one unit (Thus simulating differences in rounding operations made in different \emph{Web Services}), which we believe to be an important aspect to take into account in any \emph{Voter} system.
+    
+    Still, building the model for our voter turned out to be probably one of the most useful tasks we performed in this work, since we made us think and rethink our approach to the implementation of this system, enabling us to have a better understanding of what should the \emph{Voter} do, and how it should be accomplish, which is, after all, one of the goals of this modelling process.

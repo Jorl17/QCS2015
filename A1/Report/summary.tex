@@ -1,0 +1,21 @@
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\noindent
+\HRule \\[0.05cm]
+{\normalsize \bfseries \color{black}{EXECUTIVE SUMMARY}} \\[0.05cm]
+\HRule \\[0.05cm]
+
+    In critical systems one of the most important attributes is dependability. For this propose, this project explores the \emph{N-Version Programming} method to improve the reliability of an Insulin Dose Calculator. This is a real world problem where reliability of the result is a critical aspect.
+    
+    Applications that make use of \emph{N-Version Programming} techniques usually face the problem of, given a set of \emph{N} possibly different answers for the same problem, selecting the correct one to be considered by the application. To overcome this obstacle, a \emph{voting} system is used in such applications. The goal of this voter is to select which answer to be considered by the application, based on the set of answers given by each version considered. In short, its operation mode can be as simple as selecting the most common answer, since that would most probably be the correct value to be considered by the application.
+    
+    Furthermore, as the \emph{voter} is a critical aspect of N-Version programming, since it determines the choice the system will make regarding each version considered, a formal verification of this entity is usually done to assure the correct operation of this entity. A formal verifications of a given entity is performed under a simplified model of that entity, in which exhaustive testing is done, assuring the correct behaviour of the modelled system in all its possible states.
+    
+    If the created model operates according to what is expected in those tests, then if no errors are made converting that model to the \emph{"real"} implementation of the system, we can guarantee that specific system will operate as expected and agreed. This is particularly important in critical software applications, where the software produced must be tested to the limit.
+    
+    
+    In our work we present an application that makes use of \emph{N-Version Programming} to compute the number of Insulin units to administrate to a given patient, based on a series of parameters specified. We also present one \emph{Web Service} that can be used as one of the \emph{N-Versions} to be considered in this scenario, and our concept and implementation of a \emph{Voter} system that selects the result presented to the user, based on the computations made by a series of \emph{Web Services}.
+
+\end{titlepage}

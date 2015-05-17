@@ -1,0 +1,56 @@
+\documentclass[
+  % Replace twoside with oneside if you are printing your thesis on a single side
+  % of the paper, or for viewing on screen.
+  oneside,
+  %twoside,
+  11pt, a4paper,
+  footinclude=true,
+  headinclude=true,
+  cleardoublepage=empty
+]{scrbook}
+
+\usepackage{python}
+\usepackage[linedheaders,parts,pdfspacing,dottedtoc]{classicthesis}
+%\usepackage[linedheaders,parts,pdfspacing]{classicthesis}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage[margin=1in]{geometry}
+\usepackage{indentfirst}
+\usepackage{amsfonts}
+\usepackage[english]{babel}
+\usepackage{float}
+%\usepackage[usenames,dvipsnames]{color}
+\usepackage{lipsum}
+\usepackage{amsthm}
+\usepackage{acronym}
+\usepackage{listings}
+\usepackage{minted}
+\usepackage{subfig}
+\usepackage{url}
+
+\setlength{\parindent}{4em}
+\setlength{\parskip}{1em}
+\def\UrlBreaks{\do\/\do-}
+
+\begin{document}
+
+\include{title_page}
+
+\include{summary}
+
+\include{contents}
+
+\include{introduction}
+
+\include{overview}
+
+\include{web_service}
+
+\include{interface_application}
+
+\include{voter}
+
+\include{conclusion}
+
+\end{document}

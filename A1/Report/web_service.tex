@@ -1,0 +1,83 @@
+\chapter{Web Service}
+\label{web_service}
+
+The present section is reserved to the description of the \emph{Web Service} implemented by our group. We start this chapter with a brief description of the technology used in the development of the service, deepening into the \emph{Web Method} implemented.
+
+\section{Technology}
+
+As requested in the work's assignment, the \emph{Web Service} was developed with the \emph{Java API for XML Web Services (JAX-WS)}. \emph{JAX-WS} is a very popular and useful technology for building \emph{Web Services} (and \emph{Web Clients}) using \emph{XML} for their communications.
+
+Like many other \emph{Java EE APIs}, \emph{JAX-WS} makes use of the power of \emph{Java Annotations} to enable a quick, simple and easy development of \emph{endpoints} and \emph{Web Services}. Thanks to the annotations used, the complexity of many operations is hidden from the programmers, which eases and speeds up the development process.
+
+In \emph{JAX-WS} a \emph{Web Service} consists in one class with a finite set of (public) \emph{Web Methods}, whose invocations by a client are accomplished using \emph{SOAP}, a\emph{XML-based protocol} that defines the envelope structure, encoding rules, and conventions for representing web service invocations and their responses, transmitted over the \emph{HTTP} protocol. Once the \emph{Web Service} is fully developed it should be hosted in a given \emph{URL}, along with a description of the services created and available, so that client applications know what services to invoke and how to invoke them. This description, called \emph{Web Services Description Language (WSDL)}, is generated and managed by the mentioned \emph{API}, and consists in a language written in \emph{XML} describing the service.
+
+The development of the \emph{Client Application} is also very simple and straightforward: A client creates a local object that represents the service to invoke, called a \emph{Proxy}, and invokes all the desired methods\footnote{Also called \emph{Services}} through that same \emph{Proxy}. The \emph{JAX-WS API} offers a routine for generating the \emph{Proxy} based on the \emph{Web Services Description Language (WSDL)}, which means that, in the client side, the programmer does not need to generate or program in any way the \emph{Proxy}.
+
+Besides providing a very simple, straightforward, quick and effortless way of developing \emph{Web Servers} and \emph{Clients} the \emph{JAX-WS API} also offers the platform independence of the \emph{Java} programming language, without making it a design constraint: A \emph{Non-Java Client} can access a \emph{Web Service} developed in \emph{C++} or any other programming language and vice versa.
+
+\section{Web Methods}
+
+    This section is dedicated to the description of each method available in the web-service. This methods were implemented based on the specifications indicated in the wording of the assignment. Once all the parameters are integers, the first step consisted in convert them to \emph{doubles} avoiding some possible \emph{rounding} errors. However, the result is rounded and converted to \emph{integer}.
+
+\subsection{mealtimeInsulinDose}
+
+    The aim of this method is to calculate the number of insulin units needed after a given meal.
+
+    This method takes the amount of carbohydrate in a given meal, and returns
+the number of units of insulin needed after that meal. The returned
+number of units of insulin equals the carbohydrate dose plus the high
+blood sugar dose, which are computed as follows.
+    
+    The carbohydrate dose equals the total grams of carbohydrates in the meal
+divided by the amount of carbohydrate disposed by one unit of insulin,
+corrected by taking into account the personal sensitivity to insulin.
+This dose equals to:
+
+$$carbohydrateAmount / carbohydrateToInsulinRatio / personalSensitivity \times 50$$
+
+    The high blood sugar dose equals the difference between the pre-meal
+blood sugar level and the target blood sugar level, divided by the
+personal sensitivity to insulin. This equals $(preMealBloodSugar -
+targetBloodSugar) / personalSensitivity$. The personal sensitivity
+is can be explicitly indicated by the user or calculated using the $personalSensitivityToInsulin()$ method.
+
+    In the special case when the target blood sugar level is greater than the
+pre-meal blood sugar level, the return value of this method is zero (no
+insulin).
+
+\subsection{backgroundInsulinDose}
+
+    This method calculates the total number of units of insulin needed between meals.
+    
+    The total insulin units required in one day equals $0.55 \times body
+weight$ in kilograms. This method returns 50\% of that number, since
+the background need for insulin, between meals, is around half of the
+daily total.
+
+\subsection{personalSensitivityToInsulin}
+
+    This method is used to calculate the sensitivity to insulin based on the psychical activity level and blood sugar drop.
+    
+    One unit of insulin typically drops blood sugar by 50 mg/dl, but this
+value depends on each individual's sensitivity and daily physical
+activity. This method predicts the blood sugar drop (in mg/dl) that will
+result from one unit of insulin, for a given physical activity level.
+
+    To predict the blood sugar drop, this method accepts two arrays with
+K samples of (physical activity level, blood sugar drop). The two arrays
+must therefore have the same length. First, a simple linear regression
+(least squares method) is performed to compute alpha and beta. Then, the
+return value is $alpha + beta \times physicalActivityLevel$.
+
+    The physical activity levels, including the ones in the array of samples,
+and the blood sugar drop values are non-negative integers. The return
+value of this method may be passed to $mealtimeInsulinDose()$
+as a parameter.
+
+\section{Deployment}
+
+    The developed \emph{Web Service} was hosted in a virtual machine located at the Department of Informatics Engineering, under the url \url{liis-lab.dei.uc.pt}. The service was hosted in port $8080$, and the \emph{WSDL} can be accessed via \url{liis-lab.dei.uc.pt:8080/Server?wsdl}
+    
+    In fact, this virtual machine does not correspond to the set of virtual machines requested by the students of this course. This machine was being used by \emph{Joaquim Leitão} in a research project supervised by \emph{Prof. Alberto Cardoso}.
+    
+    Since it was not being used at the time this assignment was developed, we asked \emph{Prof. Alberto Cardoso} permission to use this machine, thus avoiding the unnecessary creation of another virtual machine. We would also like to take this opportunity to thank \emph{Prof. Alberto Cardoso} for his cooperation.

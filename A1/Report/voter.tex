@@ -1,0 +1,102 @@
+\chapter{Voter}
+\label{voter}
+
+In this chapter we intend to perform a detailed description of the \emph{Voter System} that selects the final outcome to be presented to the user, as a result of a voting operation based on a series of answers provided by the selected \emph{N} versions of the \emph{Web Service}.
+
+This is, in our opinion, the most challenging component of our system in a developer's point of view, due to its role and importance to our system. Therefore, in this chapter, we will also be addressing a formal verification of the developed voter, thus ensuring its correct behaviour.
+
+\section{Technology}
+
+Like the remaining components of our system, the \emph{Voter System} was developed in the \emph{Java} programming language and embedded in the \emph{model} structure of the \emph{Interface Application}, executed on the \emph{server side}.
+
+As mentioned in chapter \ref{interface_application}, the \emph{Voter system} starts its execution after the results of the computations of the invoked \emph{Web Services} have been successfully received, or a \emph{timeout event} has been fired.
+
+\section{Behaviour}
+
+\subsection{Theory}
+
+The basic and most basic principle behind any \emph{Voter System} is, given a series of values, determine which value is the most frequent and report it as the answer fort he given problem.
+
+In the scenario of our application this would mean that, given the results of the computations from three or more \emph{Web Services}, the voter would identify the existence of a majority response\footnote{Corresponding to a value returned by the majority of the \emph{Web Services} requested}, selecting that value as the system's final response, to be presented to the application's user. Whenever there are no majority response, or when we have more than one majority response, the \emph{Voter} cannot make a decision regarding which value to present to the user, and as a consequence of that, the voting system fails\footnote{Which, as we have already addressed, will either trigger a new request for different \emph{Web Services} and the corresponding voting of the responses or stop the process, informing the user of the failure to satisfy his/hers request}.
+
+Taking into account what we have just presented, and considering all the restrictions of the system to be developed we created a \emph{Voter System} with the behaviour that follows:
+
+\begin{itemize}
+\item The first step of the voter's execution consists in receiving all the results from the computations of the different \emph{Web Services} requested, including the ones that could not retrieve a result within the stipulated time window (For those in this situation the value $-1$ is considered).
+
+\item The voter then proceeds to compute the number of occurrences of each of the results provided, taken into account the \emph{similarity restriction} imposed in the system's requirements\footnote{Any two values that only differ one unit must be considered the same in the voting mechanism. For example, for voting purposes, the values $3$ and $4$ are considered the same, but not the values $4$ and $6$}. In this procedure only the result with higher number of occurrences is stored, as well as the sequence of those elements (in case of multiple results with higher number of occurrences that information is also stored, as it will be needed further in the voting mechanism)
+
+\item Once the voter knows which results have the higher number of occurrences it can make a decision regarding the result to be selected: If we only have one sequence with higher number of occurrences we compute its median and take that value as the result of the voter. Otherwise, if we have more than one sequence in these conditions we cannot make any decision regarding the majority response of the requested \emph{Web Services}, thus an invalid value ($-1$ in our implementation) is selected and returned to the \emph{Interface Application}, which will identify it and inform the user of the inability of the system to satisfy the requested operation
+\end{itemize}
+
+\subsection{Example}
+
+Even though we consider the behaviour of the voter described in the previous subsection to be quite simple, we believe that providing the reader with a simple example of its behaviour and operation mode will ease its understanding. Therefore, in this subsection an example of a possible scenario in our application is presented and the behaviour of the \emph{Voter} is explained.
+
+Consider that, in our application, we are making requests for a given service to $7$ \emph{Web Services}, each with its own implementations. Consider also that the results produced by those \emph{Web Services}, after being sorted are the following: $[1,1,2,3,4,6,8]$.
+
+If we compute the number of occurrences for each element, as previously described we would get the following:
+
+\begin{itemize}
+\item Element $1$ with $3$ occurrences, in the sequence: $[1,1,2]$
+\item Element $2$ with $4$ occurrences, in the sequence: $[1,1,2,3]$
+\item Element $3$ with $3$ occurrences, in the sequence: $[2,3,4]$
+\item Element $4$ with $2$ occurrences, in the sequence: $[3,4]$
+\item Element $5$ with $2$ occurrences, in the sequence: $[4,6]$
+\item Element $6$ with $1$ occurrence, in the sequence: $[6]$
+\item Element $8$ with $1$ occurrence, in the sequence: $[8]$
+\end{itemize}
+
+Please note that, in this step, we can compute sequences of elements that were not produced by any \emph{Web Service}. This is simply due to the fact that, in our system, we need to take into account the similarity between values that only differ one unit.
+
+Given the results obtained in the presented scenario, the voter would select the value $2$ as its answer (and thus it would be presented to the user) since it is the element with the higher number of occurrences.
+
+If, for example, the results computed from the \emph{Web Services} were  $[1,2,3,4,6,8,11]$, then a majority response would not have been achieved (since we would have three elements with the higher number of occurrences) and the voter would need to report that situation to the application, by returning the value $-1$.
+
+\section{Implementation}
+
+    To implement the behaviour proposed and described in the previous section we implemented two methods, \emph{voter} and \emph{median}, added and used in the \emph{Model} of the \emph{Interface Application}. In the remainder of this section we provide the reader with some detail regarding these two methods.
+    
+\subsection{voter}
+
+With the \emph{Voter} method we seeked to implement the process described in the previous section regarding the identification of a majority response among the \emph{Web Services} requested. To achieve this we made use of the implementations of some data structures in \emph{Java}, like the \emph{ArrayList} and the \emph{HashMap}.
+
+In this method we sort the results received from the \emph{Web Services}, and create a list of \emph{buckets}, where each \emph{bucket} is used to store the occurrences of each of the results provided, taken into account the \emph{similarity restriction} imposed in the system's requirements. While we are creating this list we store the size of the biggest sequence registered so far and a flag that tells us if our biggest sequence is unique\footnote{This flag is implemented as a \emph{Boolean} variable}.
+
+Once this procedure is finished we simply need to check for the value in the mentioned flag: If its value indicates a unique sequence then we can move to the next step in the execution, computing the median of that sequence. Otherwise we can simply terminate the voting process, since no majority was achieved.
+
+\subsection{median}
+
+As the name suggests, this method simply computes and returns the median of a given set ordered of values, used to determine the \emph{Voter's} response in a scenario where a majority response was achieved.
+
+This computation is pretty straightforward: First we need to check if the number of elements is even or odd. In the latter case we take the middle element of the set as the median, and in the first case we need to compute the average of the two middle elements, rounding it to the smallest closest integer.
+
+We decided to round the answer to the smallest closer integer because not only we felt that, in a real situation, if we are unable to administrate the exact number of insulin units the patient needs, then it is better to administrate a slightly smaller amount than an amount of insulin higher than what is recommended. In fact, in a real situation, injecting the patient with a smaller insulin dose than what he/she needs can lead to a state of \emph{hypoglycemia}, which is better for the patient than the opposite state, \emph{hyperglycemia}.
+
+In fact, if one reflects on our purposed implementation of the \emph{Voter System}, one can argue that it may not be the best solution for the problem we are addressing, at least not at a conceptual level.
+
+Indeed, we agree that the creation of a class to represent the \emph{Voter} would be, conceptually, more accurate and could even ease the re-usability and maintenance of our code and application. However, we made the decision to keep our \emph{Voter} implementation as presented, given its simplicity: Even if we created a class to model the behaviour of the \emph{Voter} we felt that the added value that it could bring to our application was not very high given the current \emph{Voter's} implementation.
+
+Nevertheless, we want to stress the fact that, in a real application we would probably had chosen to implement a class to model the behaviour of the \emph{Voter}, since it would provide us with a better abstraction and could ease the implementation of new functionalities in the \emph{Voter}.
+
+\section{Formal Verification}
+
+Given the importance of the \emph{Voter} in the application developed (after all, it is the voter who determines what the system's response should be) there is a need and an interest in formally verifying the behaviour of this system: If we can guarantee that our \emph{Voter} is working according to a given agreeable model, and that the model in question is formally correct, then if the implementation of that entity is done strictly according to that model, we can be sure that that particular entity will not misbehave. This is, obviously, very important in software  quality and dependability.
+
+To formally verify the \emph{Voter} described, we created a model in the \emph{Promela} process modelling language\footnote{Whose intended use is to verify the logic of parallel systems}. Having built the model we can then use \emph{SPIN}\footnote{A very popular tool used for verifying the correctness of distributed software models} to verify the correctness of the model by simulating all the possible combinations of executions in our model.
+
+Given the fact that \emph{Promela} only allows the usage of a very basic set of data types, thus not supporting most of the data structures available in the \emph{Java} programming language, we needed to perform some simplifications in the model produced, when compared to the \emph{Java} implementation of the \emph{Voter}:
+
+\begin{itemize}
+\item For starters, in the produced model we do not execute in any way a call for a \emph{Web Service}. We simply simulate its behaviour by randomly generating an output value from a previously defined output range.
+
+\item Even though we did not execute or implemented any of the \emph{Web Services}, we decided to model the occurrence of \emph{timeout events}, due to their importance in the system and the complexity they add to the entire system. In the \emph{Promela} model such events are simulated through the execution of an instruction consisting only in a variable that has the value $0$\footnote{In \emph{Promela} the value $0$ is mapped to the statement $false$, and the execution of instructions containing only a \emph{false value} (Like the execution of the instruction $(0);$ or $(false);$) result in the blocking of the process that is attempting to execute those instructions}
+
+\item We have also performed a series of \emph{assertions} throughout our model, to detect invalid execution states that, if reached, would confirm an improper implementation of the \emph{Voter} according to what we defined in our model\footnote{For example, if at any given point in the execution we determine that the \emph{Voter} is not able to make a decision, then before the execution of the model finishes we are asserting that, in fact, the \emph{Voter} reached that conclusion}.
+
+\item Since we found no reliable way of measuring the execution time in our model we decided to model the maximum response time for our system (which, in our scenario was of $4$ seconds) in a maximum number of invocations that can be made to the \emph{Web Services}. Even though we understand the differences between these two approaches, we do believe that the solution proposed is an acceptable abstraction that can be considered in our model. 
+\end{itemize}
+
+The \emph{Promela} code developed to model the behaviour of the \emph{Voter} will be provided along with this report so the reader can, if that is his/hers wish, verify and simulate the model we created.
+
+The model presented in this section, which code is provided along with this report, was exhaustively checked and verified with \emph{SPIN} and in all the tests and verifications performed no assertion or error was triggered, and the behaviour showed by the \emph{Voter} was, in our opinion, according to what is expected in this assignment: Whenever no majority was founded the \emph{Voter} did not select any value; And when a majority was, in fact, achieved the \emph{Voter} selected the median of the elements forming that majority as its result.
