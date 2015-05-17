@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ab459c3-c2cf-44ed-90c5-c390aca9ede6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/voter/spin.sh" afterPath="$PROJECT_DIR$/src/voter/spin.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Insuline-Client/src/model/UserBean.java" afterPath="$PROJECT_DIR$/../Insuline-Client/src/model/UserBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/voter/voter.pml" afterPath="$PROJECT_DIR$/src/voter/voter.pml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Insulin_WebService.iws" />
@@ -29,8 +30,8 @@
       <file leaf-file-name="voter.pml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/voter/voter.pml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="40.419353">
-              <caret line="55" column="86" selection-start-line="55" selection-start-column="86" selection-end-line="55" selection-end-column="86" />
+            <state vertical-scroll-proportion="66.19355">
+              <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -54,8 +55,8 @@
       <file leaf-file-name="spin.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/voter/spin.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32247558">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -617,7 +618,7 @@
       <workItem from="1431811452214" duration="4574000" />
       <workItem from="1431823215722" duration="94000" />
       <workItem from="1431823970908" duration="1812000" />
-      <workItem from="1431864025761" duration="1380000" />
+      <workItem from="1431864025761" duration="3543000" />
     </task>
     <task id="LOCAL-00001" summary="Server example created">
       <created>1428487083497</created>
@@ -823,11 +824,17 @@
       <option name="project" value="LOCAL" />
       <updated>1431876255852</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Removed a line from the script">
+      <created>1431876338674</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1431876338674</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71018000" />
+    <option name="totallyTimeSpent" value="73181000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -882,7 +889,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="WebService passed the test cases" />
     <MESSAGE value="Recompiled project" />
     <MESSAGE value="Updated server with information to run in Liis VM" />
     <MESSAGE value="Added file with questions to ask the teacher regarding the assignment" />
@@ -907,7 +913,8 @@
     <MESSAGE value="It is done!" />
     <MESSAGE value="It is done again XD" />
     <MESSAGE value="More bug correction in the promela" />
-    <option name="LAST_COMMIT_MESSAGE" value="More bug correction in the promela" />
+    <MESSAGE value="Removed a line from the script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed a line from the script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1269,8 +1276,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/voter/voter.pml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="40.419353">
-          <caret line="55" column="86" selection-start-line="55" selection-start-column="86" selection-end-line="55" selection-end-column="86" />
+        <state vertical-scroll-proportion="66.19355">
+          <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
           <folding />
         </state>
       </provider>
@@ -1280,8 +1287,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/voter/spin.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32247558">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
           <folding />
         </state>
       </provider>
