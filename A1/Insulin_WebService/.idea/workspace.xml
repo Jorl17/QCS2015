@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ab459c3-c2cf-44ed-90c5-c390aca9ede6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/voter/pan" afterPath="$PROJECT_DIR$/src/voter/pan" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/voter/pan.b" afterPath="$PROJECT_DIR$/src/voter/pan.b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/voter/pan.c" afterPath="$PROJECT_DIR$/src/voter/pan.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/voter/pan.h" afterPath="$PROJECT_DIR$/src/voter/pan.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/voter/pan.m" afterPath="$PROJECT_DIR$/src/voter/pan.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/voter/pan.t" afterPath="$PROJECT_DIR$/src/voter/pan.t" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/voter/pan" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/voter/pan.b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/voter/pan.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/voter/pan.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/voter/pan.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/voter/pan.p" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/voter/pan.t" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/voter/voter.pml" afterPath="$PROJECT_DIR$/src/voter/voter.pml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -34,9 +35,12 @@
     <leaf>
       <file leaf-file-name="voter.pml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/voter/voter.pml">
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.8436482">
-              <caret line="135" column="4" selection-start-line="135" selection-start-column="4" selection-end-line="135" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.4449388">
+              <caret line="120" column="10" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -138,8 +142,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -224,6 +226,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -617,7 +621,8 @@
       <workItem from="1431707245497" duration="3490000" />
       <workItem from="1431768942850" duration="16405000" />
       <workItem from="1431810737220" duration="106000" />
-      <workItem from="1431811452214" duration="2559000" />
+      <workItem from="1431811452214" duration="4574000" />
+      <workItem from="1431823215722" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="Server example created">
       <created>1428487083497</created>
@@ -799,11 +804,17 @@
       <option name="project" value="LOCAL" />
       <updated>1431813485436</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="It is done again XD">
+      <created>1431814021567</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1431814021567</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65717000" />
+    <option name="totallyTimeSpent" value="67758000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -821,27 +832,27 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.4936429" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.4936429" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5063571" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22664456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.49806523" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.49806523" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -858,7 +869,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Corrected the input validation on the web service" />
     <MESSAGE value="Added Leonard as one of the authors of the code" />
     <MESSAGE value="WebService passed the test cases" />
     <MESSAGE value="Recompiled project" />
@@ -883,7 +893,8 @@
     <MESSAGE value="Added one more response. Tomorrow we need to clean up the code, remove resolved FIXME's and unecessary prints" />
     <MESSAGE value="Small correction" />
     <MESSAGE value="It is done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="It is done!" />
+    <MESSAGE value="It is done again XD" />
+    <option name="LAST_COMMIT_MESSAGE" value="It is done again XD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1252,14 +1263,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/voter/voter.pml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.8436482">
-          <caret line="135" column="4" selection-start-line="135" selection-start-column="4" selection-end-line="135" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4449388">
+          <caret line="120" column="10" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

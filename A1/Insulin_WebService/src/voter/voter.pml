@@ -1,6 +1,6 @@
 #define N 3
 #define MAX_ITERATIONS 1
-#define NUMBER_RESULTS 5
+#define NUMBER_RESULTS 6
 
 int results[N];
 int cardinalityResults[NUMBER_RESULTS];
@@ -8,6 +8,7 @@ int processTimeout;
 int hasEqual;
 int maxCardinality;
 int maxCardinalityIndex;
+int numberTimeouts;
 int voterResult;
 int currentIteration;
 int i;
@@ -27,6 +28,7 @@ inline clearVariables()
 	hasEqual = 0;
 	maxCardinalityIndex = -1;
 	voterResult = -1;
+	numberTimeouts = 0;
 
 	MY_FALSE = 0;
 }
@@ -36,25 +38,19 @@ proctype H()
 	int myResult;
 
 	////
-	// Select behaviour for the WebService:
-	//  1 - Correct Value
-	//  2 - Correct Value
-	//  3 - Correct Value
-	//  4 - Incorrect Value
-	//  5 - Incorrect Value
-	//  Otherwise just block
+	// Select behaviour for the WebService: Output value or block
 	////
-	if
-	:: results[_pid-1] == -1 -> (MY_FALSE);
-	:: else -> 	select ( myResult : 1..5 );
-	fi;
+	do
+	:: results[_pid-1] == -1 -> printf("[%d]Vou dar timeout\n", _pid); numberTimeouts++; (MY_FALSE); break;
+	:: else -> 	select ( myResult : 1..6 ); break;
+	od;
 
 	//Store result and increment its cardinality
 	//(This is code is getting so beautiful I cannot look at it anymore)
-	if
-	:: MY_FALSE == 0 -> results[_pid-1] = myResult; cardinalityResults[myResult-1]++; printf("[%d]Retornei %d\n", _pid, results[_pid-1]);
-	:: else -> skip;
-	fi;
+	do
+	:: MY_FALSE == 0 -> results[_pid-1] = myResult; cardinalityResults[myResult-1]++; printf("[%d]Retornei %d\n", _pid, results[_pid-1]); break;
+	:: else -> break;
+	od;
 }
 
 inline callWebServices()
@@ -90,13 +86,7 @@ inline callWebServices()
 	}
 }
 
-inline voteTimeout()
-{
-	printf("Deu timeout!\n");
-	vote();
-}
-
-inline vote()
+inline doMajority()
 {
 	//Get element with majority
 	for (i : 1 .. NUMBER_RESULTS) {
@@ -114,16 +104,24 @@ inline vote()
 	fi;
 }
 
+inline vote()
+{
+	if
+	:: numberTimeouts > 1 -> voterResult = -1;
+	:: else -> doMajority();
+	fi;
+}
+
 init
 {
 	for (currentIteration : 1 .. MAX_ITERATIONS) {
 		clearVariables();
 		callWebServices();
 
-		if
-		:: _nr_pr == 1 -> vote();
-		:: timeout -> voteTimeout();
-		fi;
+		do
+		:: _nr_pr == 1 -> vote(); break;
+		:: timeout -> vote(); break;
+		od;
 
 		if
 		:: voterResult > -1 -> break;
@@ -135,6 +133,7 @@ init
 
 	if
 	:: hasEqual == 1 -> assert(voterResult==-1);
+	:: numberTimeouts > 1 -> assert(voterResult==-1);
 	:: else -> assert(voterResult!=-1);
 	fi;
 
