@@ -1,5 +1,5 @@
 #define N 3
-#define MAX_ITERATIONS 1
+#define MAX_ITERATIONS 10
 #define NUMBER_RESULTS 30
 
 int results[N];
@@ -125,7 +125,15 @@ init
 		:: voterResult > -1 -> break;
 		:: else -> skip;
 		fi;
+
+		//Unlock all the locked processes and wait for them to die
+		MY_FALSE = 1;
+		(_nr_pr == 1);
 	}
+
+	//Unlock all the locked processes and wait for them to die
+	MY_FALSE = 1;
+	(_nr_pr == 1);
 
 	printf("The result is %d\n", voterResult);
 
@@ -134,8 +142,6 @@ init
 	:: numberTimeouts > 1 -> assert(voterResult==-1);
 	:: else -> assert(voterResult!=-1);
 	fi;
-
-	MY_FALSE = 1;
 
 	printf("Terminei %d\n", _nr_pr);
 }
