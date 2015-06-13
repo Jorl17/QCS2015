@@ -1,0 +1,15 @@
+Testar o web service desenvolvido por um grupo, o votador e a interface web (Mas so testar o web service deles) -- Unit Test
+System Testing - Testar tudo, incluindo outros web services
+
+Ver template para o relatório
+
+Relatorio:
+	- Software risk issues --> Fazer divisão e referência ao black box testinge white box testing
+	At least one very good example of black box testing and white box testing (Control flow, data flow -- Data flow is being considered too much, so focus on white box testing using control flow. This means code coverage, branch coverage, etc)
+
+	Unit Testing: Good example of black box testing, Good example of white box testing and the System testing
+
+	Find tools, evaluate tools
+
+
+	Risk of situation f = probability of occurrence of f * impact of f
