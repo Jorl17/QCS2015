@@ -49,7 +49,7 @@ public class InsulinDoseCalculator{
     {
         //Input verification, all values have been adjusted to -+ 25% of the initial range
         if(carbohydrateAmount < 45 || carbohydrateAmount > 135) {
-            System.out.println("Carbohydrate Amount is off the expected values.");
+            System.out.println("Carbohydrate Amount is off the expected values. " + carbohydrateAmount);
             return -1;
         }
         if(carbohydrateToInsulinRatio < 9 || carbohydrateToInsulinRatio > 16){

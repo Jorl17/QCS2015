@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ab459c3-c2cf-44ed-90c5-c390aca9ede6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../QCS-Proj1-master/src/tests/BackgroundInsulinDose.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../QCS-Proj1-master/src/tests/MealtimeInsulinDose.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../QCS-Proj1-master/src/tests/PersonalSensitivityToInsulin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../QCS-Proj1-master/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QCS-Proj1-master/out/production/QCS/client/Client.class" afterPath="$PROJECT_DIR$/../QCS-Proj1-master/out/production/QCS/client/Client.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QCS-Proj1-master/out/production/QCS/client/InsulinDoseCalculator.class" afterPath="$PROJECT_DIR$/../QCS-Proj1-master/out/production/QCS/client/InsulinDoseCalculator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QCS-Proj1-master/out/production/QCS/server/InsulinDoseCalculator.class" afterPath="$PROJECT_DIR$/../QCS-Proj1-master/out/production/QCS/server/InsulinDoseCalculator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QCS-Proj1-master/src/client/InsulinDoseCalculator.class" afterPath="$PROJECT_DIR$/../QCS-Proj1-master/src/client/InsulinDoseCalculator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QCS-Proj1-master/src/client/Client.java" afterPath="$PROJECT_DIR$/../QCS-Proj1-master/src/client/Client.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QCS-Proj1-master/src/client/InsulinDoseCalculator.java" afterPath="$PROJECT_DIR$/../QCS-Proj1-master/src/client/InsulinDoseCalculator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QCS-Proj1-master/src/server/InsulinDoseCalculator.java" afterPath="$PROJECT_DIR$/../QCS-Proj1-master/src/server/InsulinDoseCalculator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QCS-Proj1-master/out/production/QCS/client/InsulinDoseCalculator.wsdl" afterPath="$PROJECT_DIR$/../QCS-Proj1-master/out/production/QCS/client/InsulinDoseCalculator.wsdl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QCS-Proj1-master/src/client/InsulinDoseCalculator.wsdl" afterPath="$PROJECT_DIR$/../QCS-Proj1-master/src/client/InsulinDoseCalculator.wsdl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QCS-Proj1-master/QCS.iml" afterPath="$PROJECT_DIR$/../QCS-Proj1-master/QCS.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QCS-Proj1-master/.idea/misc.xml" afterPath="$PROJECT_DIR$/../QCS-Proj1-master/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QCS-Proj1-master/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../QCS-Proj1-master/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QCS-Proj1-master/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../QCS-Proj1-master/.idea/workspace.xml" />
     </list>
     <ignored path="Insulin_WebService.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +42,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InsulinDoseCalculator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InsulinDoseCalculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/InsulinDoseCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
@@ -37,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/client/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.4">
+              <caret line="32" column="73" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1622#1623#0" expanded="true" />
@@ -55,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/src/tests/ClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="69" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
+              <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,11 +104,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/server/Server.java" />
         <option value="$PROJECT_DIR$/Duvidas.txt" />
-        <option value="$PROJECT_DIR$/src/server/InsulinDoseCalculator.java" />
         <option value="$PROJECT_DIR$/src/voter/voter.pml" />
         <option value="$PROJECT_DIR$/src/voter/spin.sh" />
         <option value="$PROJECT_DIR$/src/client/Client.java" />
         <option value="$PROJECT_DIR$/src/tests/ClientTest.java" />
+        <option value="$PROJECT_DIR$/src/server/InsulinDoseCalculator.java" />
       </list>
     </option>
   </component>
@@ -111,9 +128,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -138,9 +155,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -229,6 +245,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,7 +260,7 @@
     <property name="FullScreen" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17914692" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -653,6 +670,7 @@
       <workItem from="1431864025761" duration="3957000" />
       <workItem from="1434194146870" duration="3623000" />
       <workItem from="1434795847048" duration="601000" />
+      <workItem from="1434925077588" duration="1901000" />
     </task>
     <task id="LOCAL-00001" summary="Server example created">
       <created>1428487083497</created>
@@ -880,7 +898,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77819000" />
+    <option name="totallyTimeSpent" value="79720000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -892,8 +910,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="false" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -911,16 +929,16 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22664456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.49806523" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22664456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.49806523" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -964,7 +982,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1296,35 +1314,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/voter/voter.pml">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1679#1680#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/ClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="69" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/rt.jar!/java/lang/Math.class">
@@ -1340,6 +1336,28 @@
           <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/ClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4">
+          <caret line="32" column="73" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1622#1623#0" expanded="true" />
+            <element signature="e#1679#1680#0" expanded="true" />
           </folding>
         </state>
       </provider>
