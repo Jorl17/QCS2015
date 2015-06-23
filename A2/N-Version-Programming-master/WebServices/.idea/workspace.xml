@@ -2,89 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="061583a7-d447-4bb0-927e-7a8d5748857d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/.idea/artifacts/QCS_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/.idea/libraries/JAX_WS_Glassfish___JAX_WS_2_2_RI___Metro_1_X___JWSDP_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/QCS.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/lib/FastInoset.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/lib/gmbal-api-only.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/lib/ha-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/lib/javax.annotation.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/lib/jaxb-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/lib/jaxb-impl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/lib/jaxb-xjc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/lib/jaxws-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/lib/jaxws-rt.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/lib/jaxws-tools.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/lib/jsr181-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/lib/mail.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/lib/management-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/lib/mimepull.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/lib/policy.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/lib/saaj-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/lib/saaj-impl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/lib/stax-ex.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/lib/stax2-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/lib/streambuffer.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/lib/woodstox-core-asl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/out/production/QCS/client/BackgroundInsulinDose.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/out/production/QCS/client/BackgroundInsulinDoseResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/out/production/QCS/client/Client.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/out/production/QCS/client/InsulinDoseCalculator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/out/production/QCS/client/InsulinDoseCalculator.wsdl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/out/production/QCS/client/InsulinDoseCalculatorService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/out/production/QCS/client/MealtimeInsulinDose.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/out/production/QCS/client/MealtimeInsulinDoseResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/out/production/QCS/client/ObjectFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/out/production/QCS/client/PersonalSensitivityToInsulin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/out/production/QCS/client/PersonalSensitivityToInsulinResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/out/production/QCS/client/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/out/production/QCS/server/InsulinDoseCalculator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/out/production/QCS/server/InsulinDoseCalculator.wsdl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/out/production/QCS/server/InsulinDoseCalculatorPortType.wsdl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/out/production/QCS/server/InsulinDoseCalculatorPortType_schema1.xsd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/BackgroundInsulinDose.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/BackgroundInsulinDose.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/BackgroundInsulinDoseResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/BackgroundInsulinDoseResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/Client.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/InsulinDoseCalculator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/InsulinDoseCalculator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/InsulinDoseCalculator.wsdl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/InsulinDoseCalculatorService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/InsulinDoseCalculatorService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/MealtimeInsulinDose.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/MealtimeInsulinDose.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/MealtimeInsulinDoseResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/MealtimeInsulinDoseResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/ObjectFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/ObjectFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/PersonalSensitivityToInsulin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/PersonalSensitivityToInsulin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/PersonalSensitivityToInsulinResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/PersonalSensitivityToInsulinResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/client/package-info.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/server/InsulinDoseCalculator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/server/InsulinDoseCalculator.wsdl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/server/InsulinDoseCalculatorPortType.wsdl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/server/InsulinDoseCalculatorPortType_schema1.xsd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/tests/BackgroundInsulinDose.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/tests/MealtimeInsulinDose.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/src/tests/PersonalSensitivityToInsulin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/web/WEB-INF/sun-jaxws.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/web/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../QCS-Proj1-master/web/index.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Insulin_WebService/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Insulin_WebService/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tests/BackgroundInsulinDoseTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tests/MealtimeInsulinDoseTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tests/PersonalSensitivityToInsulinTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/client/Client.java" afterPath="$PROJECT_DIR$/src/main/java/client/Client.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebServices.iml" afterPath="$PROJECT_DIR$/WebServices.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebServices.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -114,29 +37,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InsulineService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/client/Voter/InsulineService.java">
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/client/Server/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83225805">
-              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Voter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/client/Voter/Voter.java">
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/client/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
-                <element signature="e#4227#4236#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1683#1692#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="InsulineService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/client/Voter/InsulineService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.29032257">
+              <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BackgroundInsulinDoseRest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/client/Server/BackgroundInsulinDoseRest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MealtimeInsulinDosePersonalRest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/client/Server/MealtimeInsulinDosePersonalRest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit3 Test Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -151,7 +113,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/client/Client.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/client/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/Server.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/InsulinClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/InsulineServiceThread.java" />
@@ -174,6 +135,11 @@
         <option value="$PROJECT_DIR$/WebInterface/js/webclient.js" />
         <option value="$PROJECT_DIR$/src/main/java/client/Voter/InsulineService.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/Voter/Voter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/BackgroundInsulinDoseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tests/BackgroundInsulinDoseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tests/MealtimeInsulinDoseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tests/PersonalSensitivityToInsulinTest.java" />
       </list>
     </option>
   </component>
@@ -251,6 +217,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -336,6 +310,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebServices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebServices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -368,8 +372,18 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="tests" />
+      <recent name="test" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="client.Server" />
       <recent name="client.Voter" />
@@ -754,12 +768,12 @@
       <option name="number" value="Default" />
       <updated>1431658193434</updated>
       <workItem from="1431658196763" duration="33117000" />
-      <workItem from="1435045680486" duration="786000" />
+      <workItem from="1435045680486" duration="1536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33903000" />
+    <option name="totallyTimeSpent" value="34653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -847,9 +861,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-          <folding>
-            <marker date="1431748860000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -970,22 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/InsulinDoseCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="114" column="105" selection-start-line="114" selection-start-column="105" selection-end-line="114" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/client/Voter/InsulineServicePersonalSensitivityToInsuline.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1002,16 +998,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/Server/MealtimeInsulinDoseRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-          <folding>
-            <marker date="1431748860000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebInterface/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1024,30 +1010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/Server/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45806453">
-          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/Server/MealtimeInsulinDosePersonalRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63870966">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/Server/BackgroundInsulinDoseRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30967742">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1068,16 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/Voter/Voter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-          <folding>
-            <element signature="e#4227#4236#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1086,10 +1038,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/Voter/Voter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30967742">
+          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+          <folding>
+            <element signature="e#4227#4236#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/BackgroundInsulinDoseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09677419">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/MealtimeInsulinDoseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13548388">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/PersonalSensitivityToInsulinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.090322584">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/Server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/Server/BackgroundInsulinDoseRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/Server/MealtimeInsulinDosePersonalRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/Server/MealtimeInsulinDoseRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44516128">
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/InsulinDoseCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0645162">
+          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1683#1692#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/client/Voter/InsulineService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83225805">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.29032257">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
           <folding />
         </state>
       </provider>
