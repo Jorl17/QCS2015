@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="initial-scale=1.0, width=device-width" name="viewport">
+	<title>Insulin Calculator</title>
+
+	<!-- css -->
+	<link href="css/base.css" rel="stylesheet">
+
+	  <!--  the LiveValidation source to be tested -->
+  <script type="text/javascript" src="js/livevalidation_standalone.compressed.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="js/webclient.js"></script>
+	<!-- favicon -->
+	<!-- ... -->
+
+	<!-- ie -->
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js" type="text/javascript"></script>
+			<script src="js/respond.js" type="text/javascript"></script>
+		<![endif]-->
+</head>
+<body>
+	<header class="header">
+		<ul class="nav nav-list pull-left">
+			<li>
+				<a class="menu-toggle" href="#menu">
+					<span class="access-hide">Menu</span>
+					<span class="icon icon-menu"></span>
+					<span class="header-close icon icon-close"></span>
+				</a>
+			</li>
+		</ul>
+		<a class="header-logo" href="index.html">Insulin Dose Calculator  <span class="icon icon-laptop-mac"></span></a>
+
+		<ul class="nav nav-list pull-right">
+			<li>
+				<a class="menu-toggle" >
+					<div class="avatar avatar-green avatar-sm">
+						<span class="icon icon-school"></span>
+					</div>
+				</a>
+			</li>
+		</ul>
+	</header>
+
+	<nav class="menu" id="menu">
+		<div class="menu-scroll">
+			<div class="menu-wrap">
+				<div class="menu-content">
+					<ul class="nav">
+						<li>
+							<a href="">Cenas1</a>
+						</li>						
+					</ul>
+					<hr>
+					<ul class="nav">
+						<li>
+							<a href="">Cenas2</a>
+						</li>
+					</ul>
+					<hr>
+				</div>
+			</div>
+		</div>
+	</nav>
+	
+
+	<div class="content">
+		<div class="content-heading">
+			<div class="container">				
+			</div>
+		</div>
+
+
+		<div class="content-inner">
+			<div class="container">
+			<!-- TABS -->
+				<nav class="tab-nav tab-nav-alt">
+							<ul class="nav nav-justified">
+								<li class="active">
+									<a class="waves-color-alt waves-effect" data-toggle="tab" href="#first-tab-alt" id='standard'> <span class="icon icon-group"></span> &nbsp; Mealtime insulin dose - Standard </a>
+								</li>
+								<li>
+									<a class="waves-color-alt waves-effect" data-toggle="tab" href="#second-tab-alt" id='mealtime'> <span class="icon icon-person"></span>&nbsp;  Mealtime insulin dose - Personal</a>
+								</li>
+								<li>
+									<a class="waves-color-alt waves-effect" data-toggle="tab" href="#third-tab-alt" id='last'><span class="icon icon-sort"></span>&nbsp; Background Insulin Dose</a>
+								</li>
+							</ul>
+				</nav>
+				<!-- END OF TABS -->
+
+				<div class="tab-content">
+					<!-- MEALTIME INSULIN DOSE - STANDARD-->
+
+					<div class="tab-pane fade active in" id="first-tab-alt">
+						<form class="form">
+
+							<fieldset>
+								<legend>Total grams of Carbohydrates in the meal</legend>
+								<div class="form-group form-group-label">
+									<div class="row">
+										<div class="col-lg-6 col-sm-8">
+											<label class="floating-label" for="standard-float-text1">Insert a value in grams (between 45g and 135g)</label>
+											<input class="form-control" id="standard-float-text1" type="text">
+		  									 <script type="text/javascript">
+												genericRangeValidation('standard-float-text1', 45, 135);
+		     									 </script>  
+		     									
+    											
+										</div>
+									</div>
+								</div>			
+							</fieldset>
+											
+							<fieldset>
+								<legend>Total grams of carbohydrates processed by 1 unit of rapid acting insulin</legend>
+								<div class="form-group form-group-label">
+									<div class="row">
+										<div class="col-lg-6 col-sm-8">
+											<label class="floating-label" for="float-text2">Insert a value in grams (between 9 and 16g)</label>
+											<input class="form-control" id="standard-float-text2" value ="12" type="text">
+											 <script type="text/javascript">
+		     									genericRangeValidation('standard-float-text2', 9, 16);
+		     									 </script>  
+										</div>
+									</div>
+								</div>			
+							</fieldset>
+						
+							<fieldset>
+								<legend>Actual blood sugar level measured before the meal</legend>
+								<div class="form-group form-group-label">
+									<div class="row">
+										<div class="col-lg-6 col-sm-8">
+											<label class="floating-label" for="standard-float-text3">Insert a value (between 88 and 282 mg/dl)</label>
+											<input class="form-control" id="standard-float-text3" type="text">
+											 <script type="text/javascript">
+		     									genericRangeValidation('standard-float-text3', 88, 282);
+		     									 </script>  
+										</div>
+									</div>
+								</div>			
+							</fieldset>
+						
+							<fieldset>
+								<legend>Target blood sugar before the meal</legend>
+								<div class="form-group form-group-label">
+									<div class="row">
+										<div class="col-lg-6 col-sm-8">
+											<label class="floating-label" for="standard-float-text4">Insert a value (between 70 and 130mg/dl)</label>
+											<input class="form-control" id="standard-float-text4" type="text">
+											 <script type="text/javascript">
+		     									genericRangeValidation('standard-float-text4', 70, 130);
+		     									 </script>  
+										</div>
+									</div>
+								</div>			
+							</fieldset>
+
+							<fieldset>
+								<legend>Individual Sensitivity</legend>
+								<div class="form-group form-group-label">
+									<div class="row">
+										<div class="col-lg-6 col-sm-8">
+											<label class="floating-label" for="standard-float-text5">Insert a value (one insulin unit normally drops blood sugar by 50mg/dl)</label>
+											<input class="form-control" id="standard-float-text5" value="50" type="text">
+											 <script type="text/javascript">
+		     									genericRangeValidation('standard-float-text5', 0, 119);
+
+
+		     									 </script>  
+   												
+										</div>
+									</div>
+								</div>			
+							</fieldset>
+						
+							<!-- BUTTONS  ( SUBMIT |  VIEW DETAILS) -->
+							<div class="form-group-btn">
+								<button class="btn btn-blue waves-button waves-light waves-effect" id ="standard-submit" disabled="disabled" onclick="doSubmit();">Submit</button>
+                                <button class="btn btn-green waves-button waves-effect" type="button" onclick="doShowTechnicalInfo();" id = "standard-technical-info-btn">Show Technical Information</button>
+							</div>	
+							<!-- END OF BUTTONS  ( SUBMIT |  VIEW DETAILS) -->
+						</form>
+					</div>
+
+					<!-- BACKGROUND INSULIN DOSE -->
+					<div class="tab-pane fade" id="third-tab-alt">
+
+						<form class="form">
+							<fieldset>
+								<legend>Weight</legend>
+								<div class="form-group form-group-label">
+									<div class="row">
+										<div class="col-lg-6 col-sm-8">
+											<label class="floating-label" for="last-float-text6">Insert a value in kilograms</label>
+											<input class="form-control" id="last-float-text6" type="text">
+										</div>
+
+										<script type="text/javascript">
+		     									genericRangeValidation('last-float-text6', 18, 152);
+		     							</script>  		     															
+									</div>
+								</div>			
+							</fieldset>
+							<!-- BUTTONS  ( SUBMIT |  VIEW DETAILS) -->
+							<div class="form-group-btn">
+								<button class="btn btn-blue waves-button waves-light waves-effect" type="submit" id='last-submit' onclick="doSubmit();">Submit</button>
+								<button class="btn btn-green waves-button waves-effect" type="button" onclick="doShowTechnicalInfo();"  id="last-technical-info-btn">Show Technical Information</button>
+							</div>	
+							<!-- END OF BUTTONS  ( SUBMIT |  VIEW DETAILS) -->
+						</form>
+
+					</div>
+
+
+					<!-- END OF BACKGROUND INSULIN DOSE -->
+
+					<!-- MEALTIME INSULINE DOSE - PERSONAL -->
+					<div class="tab-pane fade" id="second-tab-alt">
+						<form class="form">
+
+								<fieldset>
+								<legend>Total grams of Carbohydrates in the meal</legend>
+								<div class="form-group form-group-label">
+									<div class="row">
+										<div class="col-lg-6 col-sm-8">
+											<label class="floating-label" for="mealtime-float-text7">Insert a value in grams (between 45g and 135g)</label>
+											<input class="form-control" id="mealtime-float-text7" type="text">
+		  									<script type="text/javascript">
+		     									genericRangeValidation('mealtime-float-text7', 45, 135);
+		     								</script>  
+										</div>
+									</div>
+								</div>			
+							</fieldset>
+						
+							<fieldset>
+								<legend>Total grams of carbohydrates processed by 1 unit of rapid acting insulin</legend>
+								<div class="form-group form-group-label">
+									<div class="row">
+										<div class="col-lg-6 col-sm-8">
+											<label class="floating-label" for="mealtime-float-text8">Insert a value in grams (between 9 and 16g)</label>
+											<input class="form-control" id="mealtime-float-text8" value ="12" type="text">
+											<script type="text/javascript">
+		     									genericRangeValidation('mealtime-float-text8', 9, 16);
+		     								</script>  
+										</div>
+									</div>
+								</div>			
+							</fieldset>
+						
+							<fieldset>
+								<legend>Actual blood sugar level measured before the meal</legend>
+								<div class="form-group form-group-label">
+									<div class="row">
+										<div class="col-lg-6 col-sm-8">
+											<label class="floating-label" for="mealtime-float-text9">Insert a value (between 88 and 282 mg/dl)</label>
+											<input class="form-control" id="mealtime-float-text9" type="text">
+											<script type="text/javascript">
+		     									genericRangeValidation('mealtime-float-text9', 80, 282);
+		     								</script>  
+										</div>
+									</div>
+								</div>			
+							</fieldset>
+												
+							<fieldset>
+								<legend>Target blood sugar before the meal</legend>
+								<div class="form-group form-group-label">
+									<div class="row">
+										<div class="col-lg-6 col-sm-8">
+											<label class="floating-label" for="mealtime-float-text10">Insert a value (between 70 and 130mg/dl)</label>
+											<input class="form-control" id="mealtime-float-text10" type="text">
+											<script type="text/javascript">
+		     									genericRangeValidation('mealtime-float-text10', 70, 130);
+		     								</script>  
+										</div>
+									</div>
+								</div>			
+							</fieldset>
+							<fieldset>
+								<legend>Today's physical activity level</legend>
+								<div class="form-group form-group-label">
+									<div class="row">
+										<div class="col-lg-6 col-sm-8">
+											<label class="floating-label" for="mealtime-float-text11">Insert a value in a scale of 0 - 10</label>
+											<input class="form-control" id="mealtime-float-text11" type="text">
+											<script type="text/javascript">
+												genericRangeValidation('mealtime-float-text11', 0, 10);
+		     								</script>  
+										</div>
+									</div>
+								</div>			
+							</fieldset>
+															
+							<fieldset>
+								<legend>K samples of physical activity level in some day</legend>
+								<div id="the_fields">
+								</div>
+							</fieldset>
+
+							<fieldset>
+								<legend>K samples of drops in blood sugar from one unit of insulin in that day (25 to 100  mg/dl)</legend>
+								<div id="the_fields_values">
+								</div>								
+							</fieldset>
+							<!-- BUTTONS  ( SUBMIT |  VIEW DETAILS) -->
+							<div class="form-group-btn">
+								<button class="btn btn-blue waves-button waves-light waves-effect" id ="mealtime-submit" disabled="disabled" onclick="doSubmit();">Submit</button>
+                                <button class="btn btn-green waves-button waves-effect" type="button" onclick="doShowTechnicalInfo();"  id="mealtime-technical-info-btn">Show Technical Information</button>
+							</div>	
+						</form>
+					</div>
+					<!--  END OF MEALTIME INSULINE DOSE - PERSONAL -->
+				</div>
+
+            <div class="progress" id="progress-bar" style="display:none;">
+                <div class="progress-bar-indeterminate"></div>
+            </div>
+            <div id="results" style="display:none;">
+                <div class="row">
+                    <!-- RESULTS DIV -->
+                    <div class="col-md-8">
+                        <div class="card card-green-bg">
+                            <div class="card-main">
+                                <div class="card-inner">
+                                    <p class="card-heading"><span class="icon icon-poll"></span>&nbsp;Result: <span id="results-field"></span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="technical-info"  style="display:none;">
+                <div class="row">
+                    <!-- RESULTS DIV -->
+                    <div class="col-md-8">
+                        <div class="card card-green-bg">
+                            <div class="card-main">
+                                <div class="card-inner">
+                                    <p class="card-heading"><span class="icon icon-poll"></span>&nbsp;Technical Information </p>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--END OF RESULTS DIV -->
+                </div>
+
+            <br>
+                <div class="row">
+                    <!-- RESULTS DIV -->
+                    <div class="col-md-4">
+                        <div class="card ">
+                            <div class="card-main">
+                                <div class="card-inner">
+                                    <p class="card-heading">Number of Web Services: </p>
+                                    <p class = "card-info" id="no-webservices">-</p>
+                                    <hr>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--END OF RESULTS DIV -->
+
+                    <!-- RESULTS DIV -->
+                    <div class="col-md-4">
+                        <div class="card ">
+                            <div class="card-main">
+                                <div class="card-inner">
+                                    <p class="card-heading">Results: </p>
+                                    <p class = "card-info" id="results-webservices">-</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- RESULTS DIV -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-main">
+                                <div class="card-inner">
+                                    <p class="card-heading">Majority Result: </p>
+                                    <p  class = "card-info" id="majority-result">-</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--END OF RESULTS DIV -->
+                </div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+			<p><span class="icon icon-group"></span>&nbsp;Team:</p>
+			<p><span class="icon icon-star"></span>&nbsp;Bruno Caceiro<br><span class="icon icon-star"></span>&nbsp;Joaquim Mendes<br><span class="icon icon-star"></span>&nbsp;João Ricardo Lourenço</p>
+			
+		
+
+		</div>
+	</footer>
+
+
+	<script src="js/base.min.js" type="text/javascript"></script>
+	<script>
+		$(document).ready(function() {
+            disableSubmitButton();
+            $('form').submit(false);
+			listenToAllInputFields();
+			addKSamples(false,false);
+			addKDropSamples(false,false);
+		});
+	</script>
+
+</body>
+</html>
