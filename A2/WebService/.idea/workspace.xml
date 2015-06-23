@@ -2,133 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d562be7a-df47-4f70-ada1-2c7c083e282e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/.idea/artifacts/Insulin_WebService_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/.idea/libraries/JAX_WS_Glassfish___JAX_WS_2_2_RI___Metro_1_X___JWSDP_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/Insulin_WebService.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/lib/FastInoset.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/lib/gmbal-api-only.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/lib/ha-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/lib/javax.annotation.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/lib/jaxb-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/lib/jaxb-impl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/lib/jaxb-xjc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/lib/jaxws-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/lib/jaxws-rt.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/lib/jaxws-tools.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/lib/jsr181-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/lib/mail.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/lib/management-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/lib/mimepull.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/lib/policy.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/lib/saaj-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/lib/saaj-impl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/lib/stax-ex.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/lib/stax2-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/lib/streambuffer.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/lib/woodstox-core-asl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/out/production/Insulin_WebService/client/Client.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/out/production/Insulin_WebService/server/InsulinDoseCalculator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/out/production/Insulin_WebService/voter/spin.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/out/production/Insulin_WebService/voter/voter.pml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/.wsdl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/BackgroundInsulinDose.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/BackgroundInsulinDose.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/BackgroundInsulinDoseResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/BackgroundInsulinDoseResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/Client.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/InsulinDoseCalculator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/InsulinDoseCalculator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/InsulinDoseCalculatorService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/InsulinDoseCalculatorService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/MealtimeInsulinDose.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/MealtimeInsulinDose.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/MealtimeInsulinDoseResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/MealtimeInsulinDoseResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/ObjectFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/ObjectFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/PersonalSensitivityToInsulin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/PersonalSensitivityToInsulin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/PersonalSensitivityToInsulinResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/PersonalSensitivityToInsulinResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/client/package-info.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/server/InsulinDoseCalculator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/tests/ClientTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/voter/spin.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/src/voter/voter.pml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/WEB-INF/sun-jaxws.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/bootstrap-3.3.4-dist/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/bootstrap-3.3.4-dist/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/bootstrap-3.3.4-dist/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/bootstrap-3.3.4-dist/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/bootstrap-3.3.4-dist/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/bootstrap-3.3.4-dist/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/bootstrap-3.3.4-dist/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/bootstrap-3.3.4-dist/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/bootstrap-3.3.4-dist/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/less/animated.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/scss/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/font-awesome-4.3.0/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/jquery-1.11.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/assets/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/background.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/meal_personal.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Insulin_WebService/web/meal_standard.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../N-Version-Programming-master/WebServices/target/MANIFEST.MF" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../N-Version-Programming-master/WebServices/target/classes/client/Client.class" afterPath="$PROJECT_DIR$/../N-Version-Programming-master/WebServices/target/classes/client/Client.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../N-Version-Programming-master/WebServices/WebServices.iml" afterPath="$PROJECT_DIR$/../N-Version-Programming-master/WebServices/WebServices.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../N-Version-Programming-master/WebServices/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../N-Version-Programming-master/WebServices/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../N-Version-Programming-master/WebServices/.idea/libraries/lib.xml" afterPath="$PROJECT_DIR$/../N-Version-Programming-master/WebServices/.idea/libraries/lib.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../N-Version-Programming-master/WebServices/.idea/misc.xml" afterPath="$PROJECT_DIR$/../N-Version-Programming-master/WebServices/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../A1/Insulin_WebService/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../A1/Insulin_WebService/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../N-Version-Programming-master/WebServices/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../N-Version-Programming-master/WebServices/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="QCS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -228,8 +103,9 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -304,7 +180,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -764,12 +639,13 @@
       <workItem from="1432322906202" duration="585000" />
       <workItem from="1435071349594" duration="121000" />
       <workItem from="1435075764886" duration="353000" />
-      <workItem from="1435076178634" duration="12000" />
+      <workItem from="1435076178634" duration="179000" />
+      <workItem from="1435076371114" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25119000" />
+    <option name="totallyTimeSpent" value="25292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -826,6 +702,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/server/InsulinDoseCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/InsulinDoseCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
